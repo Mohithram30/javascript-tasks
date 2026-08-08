@@ -16,11 +16,9 @@ price = 27000;
 
 console.log("Updated Price:", price);
 
-
 // Task 3 - Company Name
 
 const company = "Stackly";
-
 console.log(company);
 
 // Task 4 - Console Practice
@@ -74,12 +72,9 @@ console.log("Last Movie:", movies[5]);
 // Task 8 - Employee Object
 
 let employee = {
-
 name: "Mohithram",
-
 age: 25,
-
-department: "Software",
+department: "Software Developer",
 
 skills: [
 "HTML",
@@ -100,25 +95,19 @@ console.log(employee.salary);
 
 
 let product = {
-
 productName: "Laptop",
-
 brand: "Dell",
-
 price: 65000,
-
 colors: [
 "Black",
 "Silver",
 "Blue"
 ]
-
 };
 
 console.log(product.brand);
 console.log(product.price);
 console.log(product.colors[1]);
-
 
 // Task 10 - Arithmetic Calculator
 
@@ -151,9 +140,7 @@ console.log(a);
 // Task 12 - Predict the Output
 
 let a1 = 10;
-
 let b1 = a1++;
-
 let c1 = ++b1;
 
 console.log(a1);
@@ -164,9 +151,7 @@ console.log(c1);
 // Task 13 - Predict the Output
 
 let x = 7;
-
 let y = --x;
-
 let z = y++;
 
 console.log(x);
@@ -176,7 +161,6 @@ console.log(z);
 // Task 15 - Grocery List
 
 let grocery = [
-
 "Rice",
 "Sugar",
 "Milk",
@@ -185,7 +169,6 @@ let grocery = [
 "Soap",
 "Tea",
 "Eggs"
-
 ];
 
 console.log(grocery[0]);
@@ -228,7 +211,6 @@ console.log(country);
 var city = "Delhi";
 
 // let state = "Kerala"; // Error
-
 // const country = "UK"; // Error
 
 console.log(city);
@@ -239,9 +221,7 @@ console.log(city);
 let tamil = 85;
 let english = 90;
 let maths = 95;
-
 let total = tamil + english + maths;
-
 let average = total / 3;
 
 console.log("Total:", total);
@@ -251,21 +231,15 @@ console.log("Average:", average);
 // Task 19 - Company Database
 
 let companyDetails = {
-
 company: "Stackly",
-
 employees: [
 "Mohithram",
 "Madhumitha",
 "Vasanth"
 ],
-
 location: "Bangalore",
-
 foundedYear: 2020,
-
 ceo: "Premalatha"
-
 };
 
 console.log(companyDetails.ceo);
