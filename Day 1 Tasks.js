@@ -1,4 +1,3 @@
-
 // Task 1 - Student Details
 
 const college = "PSG Engineering College";
@@ -19,6 +18,7 @@ console.log("Updated Price:", price);
 // Task 3 - Company Name
 
 const company = "Stackly";
+
 console.log(company);
 
 // Task 4 - Console Practice
@@ -26,7 +26,6 @@ console.log(company);
 console.log("Login Successful");
 console.warn("Password is Weak");
 console.error("Network Error");
-
 
 // Task 5 - Data Types
 
@@ -42,13 +41,7 @@ console.log(address, typeof address);
 
 // Task 6 - Shopping Cart Array
 
-let cart = [
-"Laptop",
-"Mouse",
-"Keyboard",
-"Headset",
-"Monitor"
-];
+let cart = ["Laptop","Mouse","Keyboard","Headset","Monitor"];
 
 console.log("First Product:", cart[0]);
 console.log("Third Product:", cart[2]);
@@ -56,14 +49,7 @@ console.log("Last Product:", cart[4]);
 
 // Task 7 - Favorite Movies
 
-let movies = [
-"Leo",
-"Master",
-"Vikram",
-"Jailer",
-"Kanguva",
-"Thunivu"
-];
+let movies = ["Leo","Master","Vikram","Jailer","The Sheep Detectives","Fight Club"];
 
 console.log("Second Movie:", movies[1]);
 console.log("Fifth Movie:", movies[4]);
@@ -74,40 +60,32 @@ console.log("Last Movie:", movies[5]);
 let employee = {
 name: "Mohithram",
 age: 25,
-department: "Software Developer",
-
-skills: [
-"HTML",
-"CSS",
-"JavaScript"
-],
-
+department: "Software",
+skills: ["Application development",  "Automation Testing ", " Database Management" ,"Deployment"],
 salary: 40000
-
 };
 
-console.log(employee.name);
-console.log(employee.department);
-console.log(employee.skills[0]);
-console.log(employee.salary);
+console.log("Employee Name:", employee.name);
+console.log("Department:", employee.department);
+console.log("First Skill:", employee.skills[0]);
+console.log("Salary:", employee.salary);
 
 // Task 9 - Product Details
-
 
 let product = {
 productName: "Laptop",
 brand: "Dell",
 price: 65000,
 colors: [
-"Black",
-"Silver",
-"Blue"
+    "Black",
+    "Silver",
+    "Blue"
 ]
 };
 
-console.log(product.brand);
-console.log(product.price);
-console.log(product.colors[1]);
+console.log("Brand:", product.brand);
+console.log("Price:", product.price);
+console.log("Second Color:", product.colors[1]);
 
 // Task 10 - Arithmetic Calculator
 
@@ -126,16 +104,16 @@ console.log("Exponent:", num1 ** num2);
 let a = 5;
 
 a++;
-console.log(a);
+console.log("After a++:", a);
 
 ++a;
-console.log(a);
+console.log("After ++a:", a);
 
 a--;
-console.log(a);
+console.log("After a--:", a);
 
 --a;
-console.log(a);
+console.log("After --a:", a);
 
 // Task 12 - Predict the Output
 
@@ -147,7 +125,6 @@ console.log(a1);
 console.log(b1);
 console.log(c1);
 
-
 // Task 13 - Predict the Output
 
 let x = 7;
@@ -158,22 +135,26 @@ console.log(x);
 console.log(y);
 console.log(z);
 
+// Task 14 - School Object
+
+let school = {
+schoolName: "PSG Public School",
+principal: "Mr. Kumar",
+totalStudents: 1200,
+classes: [  "Class 6","Class 7","Class 8",  "Class 9","Class 10"]
+};
+
+console.log("School Name:", school.schoolName);
+console.log("Principal:", school.principal);
+console.log("Last Class:", school.classes[school.classes.length - 1]);
+
 // Task 15 - Grocery List
 
-let grocery = [
-"Rice",
-"Sugar",
-"Milk",
-"Oil",
-"Salt",
-"Soap",
-"Tea",
-"Eggs"
-];
+let grocery = ["Rice","Sugar","Milk","Oil","Salt","Soap","Tea","Eggs"];
 
-console.log(grocery[0]);
-console.log(grocery[3]);
-console.log(grocery[7]);
+console.log("First Item:", grocery[0]);
+console.log("Fourth Item:", grocery[3]);
+console.log("Last Item:", grocery[7]);
 
 // Task 16 - User Profile
 
@@ -187,8 +168,6 @@ console.log(email, typeof email);
 console.log(userAge, typeof userAge);
 console.log(isPremium, typeof isPremium);
 
-
-
 // Task 17 - Variable Rules
 
 var city = "Chennai";
@@ -200,21 +179,25 @@ const country = "India";
 city = "Bangalore";
 state = "Karnataka";
 
+// const cannot be reassigned
 // country = "USA"; // Error
 
 console.log(city);
 console.log(state);
 console.log(country);
 
+
 // Redeclare
 
 var city = "Delhi";
 
+// let cannot be redeclared in the same scope
 // let state = "Kerala"; // Error
+
+// const cannot be redeclared in the same scope
 // const country = "UK"; // Error
 
 console.log(city);
-
 
 // Task 18 - Marks Calculation
 
@@ -227,22 +210,29 @@ let average = total / 3;
 console.log("Total:", total);
 console.log("Average:", average);
 
-
 // Task 19 - Company Database
 
 let companyDetails = {
 company: "Stackly",
-employees: [
-"Mohithram",
-"Madhumitha",
-"Vasanth"
-],
+employees: ["Mohithram", "Madhumitha", "Vasanth"],
 location: "Bangalore",
 foundedYear: 2020,
 ceo: "Premalatha"
 };
 
-console.log(companyDetails.ceo);
-console.log(companyDetails.location);
-console.log(companyDetails.employees[0]);
+console.log("CEO:", companyDetails.ceo);
+console.log("Location:", companyDetails.location);
+console.log("First Employee:", companyDetails.employees[0]);
 
+// Task 20 - Mini Profile
+
+let profile = {
+name: "Mohithram",
+city: "Bangalore",
+hobbies: [  "Coding", "Reading Books","organizing my room "],
+age: 25
+};
+
+console.log("Name:", profile.name);
+console.log("Second Hobby:", profile.hobbies[1]);
+console.log("Age:", profile.age);
