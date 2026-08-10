@@ -220,6 +220,7 @@ foundedYear: 2020,
 ceo: "Premalatha"
 };
 
+
 console.log("CEO:", companyDetails.ceo);
 console.log("Location:", companyDetails.location);
 console.log("First Employee:", companyDetails.employees[0]);
