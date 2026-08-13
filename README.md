@@ -56,6 +56,22 @@ Day 1 covers the following JavaScript concepts:
 
 Day 2 covers the following JavaScript concepts:
 
+- Variables
+- User Input
+- Data Types
+- Arrays
+- Objects
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Ternary Operator
+- Type Casting
+- Conditional Statements
+- Nested `if`
+- `switch`
+
+### Day 2 Tasks
+
 1. Variables – Student Details
 2. User Input
 3. Data Types
@@ -78,9 +94,49 @@ Day 2 covers the following JavaScript concepts:
 
 ---
 
-## Concepts Covered
+# Day 3 Tasks
 
-### Day 1
+Day 3 covers practical JavaScript concepts including:
+
+- Variables
+- `prompt()`
+- Comparison Operators
+- Logical Operators
+- `if...else`
+- `while` Loop
+- `break`
+- `for` Loop
+- Arrays
+- Objects
+- `for...in` Loop
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Higher-Order Functions
+- Callback Functions
+
+### Day 3 Tasks
+
+1. Employee Eligibility
+2. ATM Withdrawal
+3. Login System with 3 Attempts
+4. Student Grade System
+5. Number Pattern
+6. Shopping Cart
+7. Employee Object
+8. Bank Account Functions
+9. Callback Calculator
+
+### Day 3 File
+
+`Day 3 Tasks.js`
+
+---
+
+# Concepts Covered
+
+## Day 1
 
 - `var`
 - `let`
@@ -94,7 +150,7 @@ Day 2 covers the following JavaScript concepts:
 - Arithmetic Operators
 - Increment and Decrement
 
-### Day 2
+## Day 2
 
 - Variables
 - `prompt()`
@@ -113,9 +169,41 @@ Day 2 covers the following JavaScript concepts:
 - Nested `if`
 - `switch`
 
+## Day 3
+
+- Variables
+- `prompt()`
+- Comparison Operators
+- Logical Operators
+- `if...else`
+- `while` Loop
+- `break`
+- `for` Loop
+- Arrays
+- Objects
+- `for...in`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Callback Functions
+- Higher-Order Functions
+- Arithmetic Operations
+
 ---
 
-## Project Structure
+# Total Tasks
+
+| Day | Number of Tasks |
+|-----|-----------------:|
+| Day 1 | 20 |
+| Day 2 | 15 |
+| Day 3 | 9 |
+| **Total** | **44** |
+
+---
+
+# Project Structure
 
 ```text
 javascript-tasks/
@@ -125,5 +213,6 @@ javascript-tasks/
 │
 ├── Day 1 Tasks.js
 ├── Day 2 Task.js
+├── Day 3 Tasks.js
 ├── index.html
 └── README.md
