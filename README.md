@@ -333,7 +333,7 @@ Day 4 focuses on advanced JavaScript concepts, functions, loops, destructuring, 
 | Day 4 | 21 |
 | **Total** | **65** |
 
----
+----
 
 # Project Structure
 

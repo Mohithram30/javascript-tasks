@@ -298,7 +298,6 @@ console.log("Salary:", employeeSalary);
 // FINAL CHALLENGE
 // Student Management Console Program
 
-
 let students = [
     {
         name: "Arun",
@@ -319,7 +318,6 @@ let students = [
     }
 ];
 
-
 // 1. Print all students
 
 console.log("All Students:");
@@ -327,7 +325,6 @@ console.log("All Students:");
 for (let student of students) {
     console.log(student);
 }
-
 
 // 2. Print only ECE students
 
@@ -340,7 +337,6 @@ for (let student of students) {
     }
 }
 
-
 // 3. Students who scored above 80
 
 console.log("Students who scored above 80:");
@@ -351,7 +347,6 @@ for (let student of students) {
         console.log(student.name);
     }
 }
-
 
 // 4. Calculate total marks
 
@@ -370,7 +365,6 @@ let totalMarks = calculateTotal(students);
 
 console.log("Total Marks:", totalMarks);
 
-
 // 5. Calculate average
 
 function calculateAverage(students) {
@@ -383,7 +377,6 @@ function calculateAverage(students) {
 let averageMarks = calculateAverage(students);
 
 console.log("Average Marks:", averageMarks);
-
 
 // 6. Display highest mark
 
