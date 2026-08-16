@@ -12,7 +12,9 @@ https://github.com/Mohithram30/javascript-tasks
 
 # Day 1 Tasks
 
-Day 1 covers the following JavaScript concepts:
+Day 1 covers the basic JavaScript concepts.
+
+### Concepts Covered
 
 - Variables
 - Printing Statements
@@ -54,10 +56,14 @@ Day 1 covers the following JavaScript concepts:
 
 # Day 2 Tasks
 
-Day 2 covers the following JavaScript concepts:
+Day 2 covers JavaScript operators, conditions, user input, and decision-making.
+
+### Concepts Covered
 
 - Variables
 - User Input
+- `prompt()`
+- `alert()`
 - Data Types
 - Arrays
 - Objects
@@ -66,7 +72,9 @@ Day 2 covers the following JavaScript concepts:
 - Logical Operators
 - Ternary Operator
 - Type Casting
-- Conditional Statements
+- `if`
+- `if...else`
+- `else if`
 - Nested `if`
 - `switch`
 
@@ -96,7 +104,9 @@ Day 2 covers the following JavaScript concepts:
 
 # Day 3 Tasks
 
-Day 3 covers practical JavaScript concepts including:
+Day 3 covers loops, functions, callbacks, and practical JavaScript programs.
+
+### Concepts Covered
 
 - Variables
 - `prompt()`
@@ -104,17 +114,18 @@ Day 3 covers practical JavaScript concepts including:
 - Logical Operators
 - `if...else`
 - `while` Loop
-- `break`
 - `for` Loop
+- `break`
 - Arrays
 - Objects
-- `for...in` Loop
+- `for...in`
 - Functions
 - Parameters
 - Arguments
 - Return Values
-- Higher-Order Functions
 - Callback Functions
+- Higher-Order Functions
+- Arithmetic Operations
 
 ### Day 3 Tasks
 
@@ -131,6 +142,94 @@ Day 3 covers practical JavaScript concepts including:
 ### Day 3 File
 
 `Day 3 Tasks.js`
+
+---
+
+# Day 4 Tasks
+
+Day 4 focuses on advanced JavaScript concepts, functions, loops, destructuring, spread/rest operators, generators, and a mini project.
+
+### Concepts Covered
+
+- Variables
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- `if`
+- `if...else`
+- `else if`
+- Nested `if`
+- `for` Loop
+- `while` Loop
+- Arrays
+- Objects
+- `for...in`
+- `for...of`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Default Parameters
+- Callback Functions
+- Higher-Order Functions
+- Generator Functions
+- `.next().value`
+- Spread Operator
+- Rest Operator
+- Array Destructuring
+- Object Destructuring
+- Nested Object Destructuring
+
+### Day 4 Tasks
+
+#### Level 1 – Variables & Operators
+
+1. Salary Calculator
+2. Predict the Output
+3. Logical Operators
+
+#### Level 2 – Conditions
+
+4. ATM Withdrawal
+5. Student Grade
+6. Nested Login
+
+#### Level 3 – Loops
+
+7. Number Pattern
+8. Multiplication Table
+9. Reverse Countdown
+10. OTP System
+
+#### Level 4 – Arrays & Objects
+
+11. Array Search
+12. Object Details
+
+#### Level 5 – Functions
+
+13. Calculator Function
+14. Employee Salary
+15. Function With Default Parameter
+
+#### Level 6 – Advanced Functions
+
+16. Callback Task
+17. Generator Task
+
+#### Level 7 – Spread / Rest / Destructuring
+
+18. Spread Operator
+19. Array Destructuring
+20. Nested Object Destructuring
+
+#### Final Challenge
+
+21. Student Management Console Program
+
+### Day 4 File
+
+`Day 4 Tasks.js`
 
 ---
 
@@ -176,9 +275,9 @@ Day 3 covers practical JavaScript concepts including:
 - Comparison Operators
 - Logical Operators
 - `if...else`
-- `while` Loop
+- `while`
+- `for`
 - `break`
-- `for` Loop
 - Arrays
 - Objects
 - `for...in`
@@ -190,16 +289,49 @@ Day 3 covers practical JavaScript concepts including:
 - Higher-Order Functions
 - Arithmetic Operations
 
+## Day 4
+
+- Variables
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Conditional Statements
+- `if`
+- `if...else`
+- `else if`
+- Nested `if`
+- `for` Loop
+- `while` Loop
+- Arrays
+- Objects
+- `for...in`
+- `for...of`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Default Parameters
+- Callback Functions
+- Higher-Order Functions
+- Generator Functions
+- Spread Operator
+- Rest Operator
+- Array Destructuring
+- Object Destructuring
+- Nested Object Destructuring
+- Mini Project
+
 ---
 
 # Total Tasks
 
 | Day | Number of Tasks |
-|-----|-----------------:|
+|-----|----------------:|
 | Day 1 | 20 |
 | Day 2 | 15 |
 | Day 3 | 9 |
-| **Total** | **44** |
+| Day 4 | 21 |
+| **Total** | **65** |
 
 ---
 
@@ -214,5 +346,6 @@ javascript-tasks/
 ├── Day 1 Tasks.js
 ├── Day 2 Task.js
 ├── Day 3 Tasks.js
+├── Day 4 Tasks.js
 ├── index.html
 └── README.md
