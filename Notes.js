@@ -1432,17 +1432,310 @@ let sh = [1,2,3,[4,5,6],[7]]
 
 console.log(sh[4][0]);
 
+console.clear();
+
+
 // homogenious 
 // hetrogenious
 // flexible
 
 // array manipulation 
 
-// array concatination method / merge method
+// adding - you can add multiple value
 
-// array higher order metho
+// remove - you can remove only one value 
 
-// convert
 
+let example = [1,2,3]
+
+// pop()- array last value we can remove
+
+example.pop()
+
+// push()- array last value we can add
+
+example.push(3,4,5,6,7)
+
+// shift()- array first value we can remove
+
+example.shift()
+
+// unshift()- array first value we can add
+
+example.unshift(0,1)
+
+
+console.log(example);
+
+// splice(startingIndex , RemoveCount ,Adding Value)
+
+let example1 = [1,2,3,40,50,60,7,8,9,10]
+
+
+example1.splice(3,3,4,5,6)
+
+console.log(example1);
+
+
+
+
+
+// array merge method 
+
+// concat()
+
+let array1 = [1,2,3]
+let array2 = [4,5,6]
+
+let TotalArray = array1.concat(array2,7,8,9)
+
+console.log(TotalArray);
+
+
+// slice(), 
+
+let example2 = [1,2,3,50,60,70,8,9,10]
+
+let sliceval = example2.slice(3,6) // startingIndex , EndIndex + 1
+
+console.log(sliceval);
+
+
+
+// flat(), 
+
+let example3 = [1,2,[3,[4,[5,6,[7]]]]]
+
+let flatVal = example3.flat(Infinity)
+
+console.log(flatVal);
+
+
+// fill(),
+
+let example4 = [1,2,3,4] // 1,2,3,"four"
+
+example4.fill("four",3,4) // value, sI , eI + 1
+
+console.log(example4);
+
+
+// includes,
+
+let example5 = [1,56,3,8,9,20,45,0]
+
+let includesVal = example5.includes(0)
+
+console.log(includesVal);
+
+
+// indexOf(), 
+
+let example6 = [1,2,3,4,2,1,3]
+
+let indexOfVal = example6.indexOf(3,3)
+
+console.log(indexOfVal);
+
+
+
+
+
+
+// lastIndexOf()
+
+let example7 = [2,3,4,5,4,2,1,5,3,2]
+
+let lastIndexOfVal = example7.lastIndexOf(2,4)
+
+console.log(lastIndexOfVal);
+
+
+
+
+
+
+
+// sort(), 
+
+
+let example8 = [2,55678,7,4000,"a","A",3,1,0,8] // 55678 = 5.5678 , 5.5678 < 7
+
+let sortVal = example8.sort()
+
+console.log(sortVal);
+
+
+
+
+
+
+// reverse
+
+
+let example9 = [1,2,3,4]
+
+let reverseVal = example9.reverse()
+
+console.log(reverseVal);
+
+
+
+
+
+
+
+console.clear();
+
+
+
+
+
+
+// array higher order method()
+
+let example10 = [1,2,3,4]
+
+// forEach()
+
+let newForEach = example10.forEach((currentElement, indexNumber, TotalArray)=>{
+    return currentElement   
+})
+
+console.log(newForEach);
+
+
+// map()
+
+let newMap = example10.map((c,i,t)=>{
+
+    return c
+
+})
+
+console.log(newMap);
+
+
+
+
+let example11 = [
+    {empName : "a",salary : 100000},
+    {empName : "b",salary : 200000},
+    {empName : "c",salary : 300000},
+    {empName : "d",salary : 100000},
+    {empName : "e",salary : 600000},
+    {empName : "f",salary : 300000},
+    {empName : "g",salary : 200000}
+]
+// filter()
+
+
+let empSalary = example11.filter((c,i,t)=>{
+    return c.salary <= 200000
+})
+
+console.log(empSalary);
+
+
+// find()
+
+
+let findVal = example11.find((c,i,t)=>{
+     return c.salary <= 200000
+})
+
+console.log(findVal);
+
+
+// reduce()
+
+example11 = [
+    {empName : "a",salary : 100000},
+    {empName : "b",salary : 200000},
+    {empName : "c",salary : 300654},
+    {empName : "d",salary : 17854},
+    {empName : "e",salary : 600000},
+    {empName : "f",salary : 300000},
+    {empName : "g",salary : 200000}
+]
+
+
+let clcAllSalary = example11.reduce((acc,c,i,t)=>{
+    return acc + c.salary
+    //     0   + 1 = 1
+    //     1   + 2 = 3
+    //     3   + 3 = 6
+    //     6   + 1 = 7
+    //     7   + 6 = 13
+    //     13  + 3 = 16
+    //     16  + 2 = 18
+
+    //     18  + 0 = 18
+},0) // 3  // 6 // 7 // 13 // 16 // 18
+
+console.log(clcAllSalary);
+
+
+
+// some() - or 
+
+let example12 = [1,2,3,4]
+
+let someval = example12.some((c,i,t)=>{
+    return c%2==0
+
+    // 1 % 2 == 0 = false;
+    // 2 % 2 == 0 = true;
+    // 3 % 2 == 0 = false;
+    // 4 % 2 == 0 = true;
+
+    // false || true || false || true = true
+})
+
+console.log(someval);
+
+
+// every() - and
+
+let example13 = [2,4,6,8]
+
+let everyVal = example13.every((c,i,t)=>{
+    return i % 2 == 0 
+})
+
+console.log(everyVal);
+
+
+// sort()
+
+let example14 = [23,5678,0,1,23,456,76,89,90,100]
+
+console.log(example14.sort());
+
+
+let sortVal1 = example14.sort((a,b)=>{
+
+    return b - a
+
+})
+
+console.log(sortVal1);
+
+
+
+
+
+// convert   array - > string 
+
+// toString()
+
+let example15 = [1,2,3,4]
+
+console.log(example15.toString());
+
+
+// join()
+
+console.log(example15.join("  "));
 
 

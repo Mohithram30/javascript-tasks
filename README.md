@@ -233,6 +233,103 @@ Day 4 focuses on advanced JavaScript concepts, functions, loops, destructuring, 
 
 ---
 
+# Day 5 Tasks
+
+Day 5 focuses on JavaScript fundamentals, conditional statements, loops, functions, array methods, and higher-order functions.
+
+### Concepts Covered
+
+- Variables
+- Template Literals
+- String Concatenation
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- `prompt()`
+- `if`
+- `if...else`
+- `else if`
+- `for` Loop
+- `while` Loop
+- Arrays
+- Array Methods
+- `push()`
+- `pop()`
+- `shift()`
+- `unshift()`
+- `splice()`
+- `concat()`
+- `slice()`
+- `flat()`
+- `includes()`
+- `indexOf()`
+- `sort()`
+- `reverse()`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Default Parameters
+- `forEach()`
+- `map()`
+- `filter()`
+- `find()`
+- `reduce()`
+- `some()`
+- `every()`
+- Higher-Order Functions
+- Spread Operator
+- Object Destructuring
+
+### Day 5 Tasks
+
+#### Level 1 – Basics
+
+1. Student Details
+2. Simple Calculator
+3. Age Checker
+
+#### Level 2 – Conditions
+
+4. Student Grade
+5. Login System
+6. ATM Withdrawal
+
+#### Level 3 – Loops
+
+7. Multiplication Table
+8. Reverse Number
+9. OTP System
+
+#### Level 4 – Functions
+
+10. Salary Calculator
+11. Calculator Function
+12. Eligibility Function
+
+#### Level 5 – Array Practice
+
+13. Shopping Cart
+14. Find Maximum
+15. Remove Duplicate Values
+
+#### Level 6 – Higher-Order Functions
+
+16. Employee Salary Filter
+17. Increase Salary
+18. Total Salary
+19. Check Employee
+
+#### Interview Challenge
+
+20. Employee Management Mini Program
+
+### Day 5 File
+
+`Day 5 Tasks.js`
+
+---
+
 # Concepts Covered
 
 ## Day 1
@@ -314,12 +411,58 @@ Day 4 focuses on advanced JavaScript concepts, functions, loops, destructuring, 
 - Callback Functions
 - Higher-Order Functions
 - Generator Functions
+- `.next().value`
 - Spread Operator
 - Rest Operator
 - Array Destructuring
 - Object Destructuring
 - Nested Object Destructuring
 - Mini Project
+
+## Day 5
+
+- Variables
+- String Concatenation
+- Template Literals
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- `prompt()`
+- `if`
+- `if...else`
+- `else if`
+- `for` Loop
+- `while` Loop
+- Arrays
+- Objects
+- Array Methods
+- `push()`
+- `pop()`
+- `shift()`
+- `unshift()`
+- `splice()`
+- `concat()`
+- `slice()`
+- `flat()`
+- `includes()`
+- `indexOf()`
+- `sort()`
+- `reverse()`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Default Parameters
+- `forEach()`
+- `map()`
+- `filter()`
+- `find()`
+- `reduce()`
+- `some()`
+- `every()`
+- Higher-Order Functions
+- Spread Operator
+- Object Destructuring
 
 ---
 
@@ -331,9 +474,10 @@ Day 4 focuses on advanced JavaScript concepts, functions, loops, destructuring, 
 | Day 2 | 15 |
 | Day 3 | 9 |
 | Day 4 | 21 |
-| **Total** | **65** |
+| Day 5 | 20 |
+| **Total** | **85** |
 
-----
+---
 
 # Project Structure
 
@@ -347,5 +491,6 @@ javascript-tasks/
 ├── Day 2 Task.js
 ├── Day 3 Tasks.js
 ├── Day 4 Tasks.js
+├── Day 5 Tasks.js
 ├── index.html
 └── README.md
