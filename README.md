@@ -330,6 +330,91 @@ Day 5 focuses on JavaScript fundamentals, conditional statements, loops, functio
 
 ---
 
+# Day 6 Tasks
+
+Day 6 focuses on building a complete **JavaScript Employee Management System** using arrays, objects, functions, higher-order array methods, destructuring, spread/rest operators, dates, and user input.
+
+### Concepts Covered
+
+- Variables
+- Arrays
+- Objects
+- Object Properties
+- Nested Arrays
+- `forEach()`
+- `filter()`
+- `find()`
+- `findIndex()`
+- `reduce()`
+- `some()`
+- `every()`
+- `sort()`
+- `push()`
+- `pop()`
+- `shift()`
+- `unshift()`
+- `splice()`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Conditional Statements
+- `if`
+- `if...else`
+- `else if`
+- `prompt()`
+- `switch`
+- `while` Loop
+- Object Destructuring
+- Array Destructuring
+- Spread Operator
+- Rest Operator
+- Date Object
+- `getFullYear()`
+- `getMonth()`
+- Higher-Order Functions
+- Menu-Driven Programs
+
+### Day 6 Tasks
+
+1. Employee Data
+2. Display All Employees using `forEach()`
+3. Find High Salary Employees using `filter()`
+4. Find Employee by ID using `find()`
+5. Calculate Total Salary using `reduce()`
+6. Check Salary Condition using `some()`
+7. Check Employee Experience using `every()`
+8. Sort Employees by Salary
+9. Array Manipulation using `push()`, `pop()`, `unshift()`, and `shift()`
+10. Object and Array Destructuring
+11. Spread Operator
+12. Rest Operator
+13. Employee Management Functions
+14. Salary Category
+15. Employee Joining Date
+16. User Input – Search Employee by ID
+
+### Bonus Task
+
+17. Menu-Driven Employee Management System
+
+Menu options:
+
+1. Display All Employees
+2. Add Employee
+3. Search Employee
+4. Filter High Salary Employees
+5. Calculate Total Salary
+6. Sort By Salary
+7. Delete Employee
+8. Exit
+
+### Day 6 File
+
+`Day 6 Task.js`
+
+---
+
 # Concepts Covered
 
 ## Day 1
@@ -464,6 +549,48 @@ Day 5 focuses on JavaScript fundamentals, conditional statements, loops, functio
 - Spread Operator
 - Object Destructuring
 
+## Day 6
+
+- Employee Management System
+- Variables
+- Arrays
+- Objects
+- Object Properties
+- Nested Arrays
+- `forEach()`
+- `filter()`
+- `find()`
+- `findIndex()`
+- `reduce()`
+- `some()`
+- `every()`
+- `sort()`
+- `push()`
+- `pop()`
+- `shift()`
+- `unshift()`
+- `splice()`
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Conditional Statements
+- `if`
+- `if...else`
+- `else if`
+- `prompt()`
+- `switch`
+- `while` Loop
+- Object Destructuring
+- Array Destructuring
+- Spread Operator
+- Rest Operator
+- Date Object
+- `getFullYear()`
+- `getMonth()`
+- Higher-Order Functions
+- Menu-Driven Program
+
 ---
 
 # Total Tasks
@@ -475,7 +602,8 @@ Day 5 focuses on JavaScript fundamentals, conditional statements, loops, functio
 | Day 3 | 9 |
 | Day 4 | 21 |
 | Day 5 | 20 |
-| **Total** | **85** |
+| Day 6 | 17 |
+| **Total** | **102** |
 
 ---
 
@@ -492,5 +620,6 @@ javascript-tasks/
 ├── Day 3 Tasks.js
 ├── Day 4 Tasks.js
 ├── Day 5 Tasks.js
+├── Day 6 Task.js
 ├── index.html
 └── README.md
