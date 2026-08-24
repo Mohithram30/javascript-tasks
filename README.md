@@ -657,5 +657,6 @@ javascript-tasks/
 ├── Day 4 Tasks.js
 ├── Day 5 Tasks.js
 ├── Day 6 Task.js
+├── Day 7 Task.js
 ├── index.html
 └── README.md
