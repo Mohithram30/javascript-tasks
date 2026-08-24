@@ -639,7 +639,8 @@ Requirements:
 | Day 4 | 21 |
 | Day 5 | 20 |
 | Day 6 | 17 |
-| **Total** | **102** |
+| Day 7 | 1 |
+| **Total** | **103** |
 
 ---
 
