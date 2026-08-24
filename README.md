@@ -591,6 +591,42 @@ Menu options:
 - Higher-Order Functions
 - Menu-Driven Program
 
+# Day 7 Tasks
+
+Day 7 focuses on **JavaScript DOM manipulation** and building a simple interactive ToDo list using DOM methods and event handling.
+
+### Concepts Covered
+
+- DOM Manipulation
+- `querySelector()`
+- `addEventListener()`
+- `createElement()`
+- `innerText`
+- `append()`
+- `remove()`
+- `if`
+- `else`
+- User Input
+- Event Handling
+- Creating HTML Elements Dynamically
+- Removing HTML Elements Dynamically
+
+### Day 7 Task
+
+#### Simple ToDo Task
+
+Create a ToDo list using JavaScript DOM.
+
+Requirements:
+
+1. Create an input box and **Add** button.
+2. When the user enters a task and clicks **Add**:
+   - Create a new `<li>`.
+   - Display the task inside the `<ol>`.
+3. Each task should have a **Delete** button.
+4. Clicking **Delete** should remove that task.
+5. If the input is empty, show:
+
 ---
 
 # Total Tasks

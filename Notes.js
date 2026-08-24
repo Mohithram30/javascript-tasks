@@ -1,240 +1,240 @@
-// // // javascript
+// // // // // // // // // // javascript
 
-// // // script writing
+// // // // // // // // // // script writing
 
 
-// // // 1. ques 
+// // // // // // // // // // 1. ques 
 
-// // // answer
+// // // // // // // // // // answer
 
 
-// // // 2. ques
+// // // // // // // // // // 2. ques
 
-// // // answer
+// // // // // // // // // // answer
 
 
 
-// // // variable : -
+// // // // // // // // // // variable : -
 
-// // // var - global scope
+// // // // // // // // // // var - global scope
 
-// // // let - block scope
+// // // // // // // // // // let - block scope
 
-// // // const - block scope
+// // // // // // // // // // const - block scope
 
 
 
-// // // rule :- 
+// // // // // // // // // // rule :- 
 
 
-// // // var 
+// // // // // // // // // // var 
 
 
-// // // declration  // intialization
+// // // // // // // // // // declration  // intialization
 
-// // var a = 10
+// // // // // // // // // var a = 10
 
-// // // reuse    // reIntialization
+// // // // // // // // // // reuse    // reIntialization
 
-// //     a = 12
+// // // // // // // // //     a = 12
 
-// // // reDeclration
+// // // // // // // // // // reDeclration
 
-// // var a = 55
+// // // // // // // // // var a = 55
 
 
-// // console.log(a);
+// // // // // // // // // console.log(a);
 
 
 
-// // // let 
+// // // // // // // // // // let 
 
-// // // declration  // intialization
+// // // // // // // // // // declration  // intialization
 
-// // let b = 22
+// // // // // // // // // let b = 22
 
-// // // reuse  // reintilization
+// // // // // // // // // // reuse  // reintilization
 
-// //     b = 23
+// // // // // // // // //     b = 23
 
-// // // reDeclration
+// // // // // // // // // // reDeclration
 
-// // // let b = 50 
+// // // // // // // // // // let b = 50 
 
-// // console.log(b);
+// // // // // // // // // console.log(b);
 
 
-// // // const 
+// // // // // // // // // // const 
 
-// // // declration  // reIntialization
+// // // // // // // // // // declration  // reIntialization
 
-// // const c = 40
+// // // // // // // // // const c = 40
 
-// // // reuse    // reIntialization
+// // // // // // // // // // reuse    // reIntialization
 
-// //     //   c = 50
+// // // // // // // // //     //   c = 50
 
-// // // reDeclration 
+// // // // // // // // // // reDeclration 
 
-// // // const c = 50
+// // // // // // // // // // const c = 50
 
-// // console.log(c);
+// // // // // // // // // console.log(c);
 
 
 
 
-// // // example :- 
+// // // // // // // // // // example :- 
 
 
-// // const c1 = 0 
+// // // // // // // // // const c1 = 0 
 
-// // console.log(c1);
+// // // // // // // // // console.log(c1);
 
 
-// // let a1 = 5
+// // // // // // // // // let a1 = 5
 
-// // var d1 = c1 
+// // // // // // // // // var d1 = c1 
 
-// // var d1 = a1 
+// // // // // // // // // var d1 = a1 
 
 
-// // console.log(c1 , a1 , d1);
+// // // // // // // // // console.log(c1 , a1 , d1);
 
-// // // 0 , 5 , 5
+// // // // // // // // // // 0 , 5 , 5
 
 
 
 
 
 
-// // // printing statement
+// // // // // // // // // // printing statement
 
 
-// // // 1. console.log()
+// // // // // // // // // // 1. console.log()
 
 
-// // let c11 = 50
+// // // // // // // // // let c11 = 50
 
-// // console.log(c11);
+// // // // // // // // // console.log(c11);
 
-// // console.log(122);
+// // // // // // // // // console.log(122);
 
 
-// // // 2. alert()
+// // // // // // // // // // 2. alert()
 
 
-// // // let c12 = 40
-// // // alert(c12)
+// // // // // // // // // // let c12 = 40
+// // // // // // // // // // alert(c12)
 
-// // // alert(555)
+// // // // // // // // // // alert(555)
 
 
 
-// // // 3. confirm()
+// // // // // // // // // // 3. confirm()
 
-// // // confirm("did you know programing ?")
+// // // // // // // // // // confirm("did you know programing ?")
 
 
-// // // 4. prompt()
+// // // // // // // // // // 4. prompt()
 
 
-// // // prompt("what is your name")
+// // // // // // // // // // prompt("what is your name")
 
-// // // 5. document.writeln()
+// // // // // // // // // // 5. document.writeln()
 
-// // // document.writeln(55586879)
+// // // // // // // // // // document.writeln(55586879)
 
 
 
-// // // example :- 
+// // // // // // // // // // example :- 
 
 
-// // // i want to know user name , i want to print username in console in.
+// // // // // // // // // // i want to know user name , i want to print username in console in.
 
-// // // let username = prompt("what is your name :- ")
+// // // // // // // // // // let username = prompt("what is your name :- ")
 
-// // // console.log(username);
+// // // // // // // // // // console.log(username);
 
 
 
-// // // i want to show user age to use through pop up
+// // // // // // // // // // i want to show user age to use through pop up
 
-// // // let userAge = prompt("how old are you :- ")
+// // // // // // // // // // let userAge = prompt("how old are you :- ")
 
-// // // alert("user age :- " + userAge )
+// // // // // // // // // // alert("user age :- " + userAge )
 
 
-// // // i want to print in ui  "batch 38"
+// // // // // // // // // // i want to print in ui  "batch 38"
 
-// // // document.writeln("batch 38")
+// // // // // // // // // // document.writeln("batch 38")
 
 
 
-// // // console methods 
+// // // // // // // // // // console methods 
 
 
-// // // 1. console.log()
+// // // // // // // // // // 1. console.log()
 
 
-// // console.log(145);
+// // // // // // // // // console.log(145);
 
 
-// // // 2. console.warn()
+// // // // // // // // // // 2. console.warn()
 
-// // console.warn(145);
+// // // // // // // // // console.warn(145);
 
 
-// // // 3. console.error()
+// // // // // // // // // // 3. console.error()
 
-// // console.error(145);
+// // // // // // // // // console.error(145);
 
 
-// // // 4. console.clear()
+// // // // // // // // // // 4. console.clear()
 
-// // console.clear()
+// // // // // // // // // console.clear()
 
 
-// // // DataTypes()
+// // // // // // // // // // DataTypes()
 
 
-// // // 1. primitive DataTypes
+// // // // // // // // // // 1. primitive DataTypes
 
-// // // types :- 
+// // // // // // // // // // types :- 
 
 
-// // // 1. string - ""
+// // // // // // // // // // 1. string - ""
 
 
-// // let ss = "naveen"
+// // // // // // // // // let ss = "naveen"
 
-// // console.log(typeof(ss));
+// // // // // // // // // console.log(typeof(ss));
 
 
-// // // 2. number - 123
+// // // // // // // // // // 2. number - 123
 
-// // let ss1 = 23
+// // // // // // // // // let ss1 = 23
 
-// // console.log(typeof(ss1));
+// // // // // // // // // console.log(typeof(ss1));
 
-// // // 3. boolean - true/ false 
+// // // // // // // // // // 3. boolean - true/ false 
 
-// // let ss2 = false 
+// // // // // // // // // let ss2 = false 
 
-// // console.log(typeof(ss2));
+// // // // // // // // // console.log(typeof(ss2));
 
 
-// // // 4. undefined
+// // // // // // // // // // 4. undefined
 
-// // let ss3;
+// // // // // // // // // let ss3;
 
-// // console.log(ss3);
+// // // // // // // // // console.log(ss3);
 
 
-// // // 5. null 
+// // // // // // // // // // 5. null 
 
-// // // let ss4 = prompt()
+// // // // // // // // // // let ss4 = prompt()
 
-// // // console.log(ss4);
+// // // // // // // // // // console.log(ss4);
 
 
 
@@ -242,152 +242,152 @@
 
 
 
-// // // 2. non primitive dataTypes
+// // // // // // // // // // 2. non primitive dataTypes
 
 
-// // // types 
+// // // // // // // // // // types 
 
-// // // array 
+// // // // // // // // // // array 
 
-// // // []
+// // // // // // // // // // []
 
 
-// // let games = ["nfs","pubg","ff","cod","cricket","gow","cc","dd"]
+// // // // // // // // // let games = ["nfs","pubg","ff","cod","cricket","gow","cc","dd"]
 
-// // console.log(games);
-// // console.log(games[1]);
-// // console.log(games[4]);
-// // console.log(games[2]);
+// // // // // // // // // console.log(games);
+// // // // // // // // // console.log(games[1]);
+// // // // // // // // // console.log(games[4]);
+// // // // // // // // // console.log(games[2]);
 
 
-// // // console.log(games[5]);
+// // // // // // // // // // console.log(games[5]);
 
-// // console.log(games[0]);
-// // console.log(games[games.length-1]);
+// // // // // // // // // console.log(games[0]);
+// // // // // // // // // console.log(games[games.length-1]);
 
-// // games = ["nfs","pubg","ff","cod","cricket","gow","cc","dd","abc","apple"]
+// // // // // // // // // games = ["nfs","pubg","ff","cod","cricket","gow","cc","dd","abc","apple"]
 
-// // // object 
+// // // // // // // // // // object 
 
-// // // {}
+// // // // // // // // // // {}
 
-// // let allObj = {
-// //     games : ["nfs","pubg","ff","cod","cricket","gow","cc"],
+// // // // // // // // // let allObj = {
+// // // // // // // // //     games : ["nfs","pubg","ff","cod","cricket","gow","cc"],
 
-// //     fruit : "apple",
+// // // // // // // // //     fruit : "apple",
 
-// //     alphs : ["dd","abc"]
-// // }
+// // // // // // // // //     alphs : ["dd","abc"]
+// // // // // // // // // }
 
 
-// // console.log(allObj);
-// // console.log(allObj.fruit);
-// // console.log(allObj.alphs[1]);
-// // console.log(allObj.games[4]);
+// // // // // // // // // console.log(allObj);
+// // // // // // // // // console.log(allObj.fruit);
+// // // // // // // // // console.log(allObj.alphs[1]);
+// // // // // // // // // console.log(allObj.games[4]);
 
 
-// // console.clear()
+// // // // // // // // // console.clear()
 
 
-// // // operators
+// // // // // // // // // // operators
 
-// // // 1. Arithmetic operator
+// // // // // // // // // // 1. Arithmetic operator
 
 
-// // //  meaning         operator 
+// // // // // // // // // //  meaning         operator 
 
 
-// // //   addition          +
+// // // // // // // // // //   addition          +
 
-// // console.log(5  +  5);
+// // // // // // // // // console.log(5  +  5);
 
-// // //   subraction        - 
+// // // // // // // // // //   subraction        - 
 
-// // console.log(5  -  5);
+// // // // // // // // // console.log(5  -  5);
 
-// // //   multiplication    *
+// // // // // // // // // //   multiplication    *
 
-// // console.log(5  *  5);
+// // // // // // // // // console.log(5  *  5);
 
-// // // division            /
+// // // // // // // // // // division            /
 
-// // console.log(5  /  5);
+// // // // // // // // // console.log(5  /  5);
 
-// // // modulus              %
+// // // // // // // // // // modulus              %
 
 
-// // console.log(39   %   50);
+// // // // // // // // // console.log(39   %   50);
 
 
-// // // Exponencial          **
+// // // // // // // // // // Exponencial          **
 
-// // console.log(5 ** 5);// 5^5 = 5*5*5*5*5 = 3125 
+// // // // // // // // // console.log(5 ** 5);// 5^5 = 5*5*5*5*5 = 3125 
 
 
-// // // increament     ++ = +1
+// // // // // // // // // // increament     ++ = +1
 
-// // // post inc    = var ++ 
+// // // // // // // // // // post inc    = var ++ 
 
-// // // pre  inc    = ++ var
+// // // // // // // // // // pre  inc    = ++ var
 
 
-// // // decreament      -- = -1 
+// // // // // // // // // // decreament      -- = -1 
 
-// // // post dec   = var --
+// // // // // // // // // // post dec   = var --
 
-// // // pre  dec   = -- var
-// // console.log("increament / decreament");
+// // // // // // // // // // pre  dec   = -- var
+// // // // // // // // // console.log("increament / decreament");
 
 
 
-// // let val = 1
+// // // // // // // // // let val = 1
 
-// // val--
+// // // // // // // // // val--
 
-// // console.log(val);
+// // // // // // // // // console.log(val);
 
 
 
-// // // searching element first find in variable side means that value side you can calculate yet the variable.
+// // // // // // // // // // searching element first find in variable side means that value side you can calculate yet the variable.
 
 
 
-// // let val1 = 3     // null
+// // // // // // // // // let val1 = 3     // null
  
-// // val1     = -- val1  // -- 3 = 2
+// // // // // // // // // val1     = -- val1  // -- 3 = 2
 
 
-// // console.log(val1);
+// // // // // // // // // console.log(val1);
 
 
-// // // searching element first find in value side means that value side you can calculate all the value.
+// // // // // // // // // // searching element first find in value side means that value side you can calculate all the value.
 
-// // let val2 = 5        // null
+// // // // // // // // // let val2 = 5        // null
 
-// // let val3  = val2 ++  // val2 ++ = 5+1 = 6
+// // // // // // // // // let val3  = val2 ++  // val2 ++ = 5+1 = 6
 
 
-// // console.log("val2 :",val2);  // val2 :- 6
-// // console.log("val3 :",val3);  // val3 :- 5
+// // // // // // // // // console.log("val2 :",val2);  // val2 :- 6
+// // // // // // // // // console.log("val3 :",val3);  // val3 :- 5
 
 
 
 
 
-// // let val4 = 1    // null
+// // // // // // // // // let val4 = 1    // null
 
-// // let val5 = val4++ //
+// // // // // // // // // let val5 = val4++ //
 
-// // let val6 = --val5 // --val5 // --1 = 0
+// // // // // // // // // let val6 = --val5 // --val5 // --1 = 0
 
 
-// // console.log(val4);  // 1 2 1 1 2  | val4 :- 2
-// // console.log(val5);  // 1 0 2 1 1  | val5 :- 0  
-// // console.log(val6);  // 0 0 1 1 0  | val6 :- 0
+// // // // // // // // // console.log(val4);  // 1 2 1 1 2  | val4 :- 2
+// // // // // // // // // console.log(val5);  // 1 0 2 1 1  | val5 :- 0  
+// // // // // // // // // console.log(val6);  // 0 0 1 1 0  | val6 :- 0
 
 
 
-// // console.clear()
+// // // // // // // // // console.clear()
 
 
 
@@ -396,360 +396,360 @@
 
 
 
-// // // 2. Assignment operator 
+// // // // // // // // // // 2. Assignment operator 
 
-// // let num1 = 5
+// // // // // // // // // let num1 = 5
 
-// // let additionVal = 100
+// // // // // // // // // let additionVal = 100
 
-// // // num1 = num1 + additionVal 
+// // // // // // // // // // num1 = num1 + additionVal 
 
-// // num1 += additionVal
+// // // // // // // // // num1 += additionVal
 
-// // console.log(num1);
+// // // // // // // // // console.log(num1);
 
 
 
-// // // 3. comparision operator 
+// // // // // // // // // // 3. comparision operator 
 
-// // // meaning     operator       example       result
+// // // // // // // // // // meaning     operator       example       result
 
 
-// // // lessThen      <             5 < 6        true
+// // // // // // // // // // lessThen      <             5 < 6        true
 
-// // // greaterThen   >             6 > 5        true
+// // // // // // // // // // greaterThen   >             6 > 5        true
 
-// // // lessThenEq    <=            5 <= 5       true
+// // // // // // // // // // lessThenEq    <=            5 <= 5       true
 
-// // // greaterThenEq >=            6 >= 55      false
+// // // // // // // // // // greaterThenEq >=            6 >= 55      false
 
-// // // lossey type Eq ==           5 == "5"     true
+// // // // // // // // // // lossey type Eq ==           5 == "5"     true
 
-// // // looseyNotEq    !=           5 != "5"     false
+// // // // // // // // // // looseyNotEq    !=           5 != "5"     false
 
-// // // strictlyTypeEq ===          5 === "5"    false
+// // // // // // // // // // strictlyTypeEq ===          5 === "5"    false
 
-// // // strictlyNotEq  !==          6 !== "5"    true
+// // // // // // // // // // strictlyNotEq  !==          6 !== "5"    true
 
 
 
-// // console.log(5 == "5");  // true
-// // console.log(15 != "5"); // true
-// // console.log(53 === "55"); // false
-// // console.log(5 !== "5"); // true
+// // // // // // // // // console.log(5 == "5");  // true
+// // // // // // // // // console.log(15 != "5"); // true
+// // // // // // // // // console.log(53 === "55"); // false
+// // // // // // // // // console.log(5 !== "5"); // true
 
 
 
 
-// // // 4. logical operator
+// // // // // // // // // // 4. logical operator
 
-// // // AND    = &&
+// // // // // // // // // // AND    = &&
 
-// // // true && true && true = true 
+// // // // // // // // // // true && true && true = true 
 
-// // // false && false && true = false
+// // // // // // // // // // false && false && true = false
 
-// // // OR     = ||
+// // // // // // // // // // OR     = ||
 
-// // // false || false || false = false 
+// // // // // // // // // // false || false || false = false 
 
-// // // true || false || false  = true
+// // // // // // // // // // true || false || false  = true
 
-// // // NOT    = !
+// // // // // // // // // // NOT    = !
 
-// // // !(true) = false , !(false) = true 
+// // // // // // // // // // !(true) = false , !(false) = true 
 
 
-// // // 1
-// // console.log(5 == 5 && 8 <= 6 || 5 >= 5); 
+// // // // // // // // // // 1
+// // // // // // // // // console.log(5 == 5 && 8 <= 6 || 5 >= 5); 
 
-// // //           true  && false = false || true = true
+// // // // // // // // // //           true  && false = false || true = true
 
-// // // 2
-// // console.log(10 > 5 && 20 < 15 || 8 == "8");
+// // // // // // // // // // 2
+// // // // // // // // // console.log(10 > 5 && 20 < 15 || 8 == "8");
 
-// // //          true && false = false || true = true
+// // // // // // // // // //          true && false = false || true = true
 
-// // // 3
-// // console.log(15 === "15" || 10 != 5 && 6 > 3);
+// // // // // // // // // // 3
+// // // // // // // // // console.log(15 === "15" || 10 != 5 && 6 > 3);
 
-// // //           false   || true  = true && true = true 
+// // // // // // // // // //           false   || true  = true && true = true 
 
-// // // 4
-// // console.log(20 >= 20 && 5 !== "5" || 10 < 5);
+// // // // // // // // // // 4
+// // // // // // // // // console.log(20 >= 20 && 5 !== "5" || 10 < 5);
 
-// // //           true && true = true ||  false = true
+// // // // // // // // // //           true && true = true ||  false = true
 
-// // // 5
-// // console.log(25 < 20 || 30 == "30" && 10 >= 10);
+// // // // // // // // // // 5
+// // // // // // // // // console.log(25 < 20 || 30 == "30" && 10 >= 10);
 
-// // //          false   ||  true = true && true = true
+// // // // // // // // // //          false   ||  true = true && true = true
 
-// // // 6
-// // console.log(5 === 5 && 10 != "10" || 8 > 3);
+// // // // // // // // // // 6
+// // // // // // // // // console.log(5 === 5 && 10 != "10" || 8 > 3);
 
-// // //           true  &&  false = false || true = true
+// // // // // // // // // //           true  &&  false = false || true = true
 
-// // // 7
-// // console.log(50 > 40 && 20 <= 20 || 15 === "15");
+// // // // // // // // // // 7
+// // // // // // // // // console.log(50 > 40 && 20 <= 20 || 15 === "15");
 
-// // //           true   && true = true || false = true     
+// // // // // // // // // //           true   && true = true || false = true     
 
-// // // 8
-// // console.log(10 != "10" || 5 >= 5 && 8 < 10);
+// // // // // // // // // // 8
+// // // // // // // // // console.log(10 != "10" || 5 >= 5 && 8 < 10);
 
-// // //           false   || true = true && true = true
+// // // // // // // // // //           false   || true = true && true = true
 
-// // // 9
-// // console.log(100 === "100" && 50 > 25 || 10 != "10");
+// // // // // // // // // // 9
+// // // // // // // // // console.log(100 === "100" && 50 > 25 || 10 != "10");
 
-// // //           false && true = false || false = false
+// // // // // // // // // //           false && true = false || false = false
 
-// // // 10
-// // console.log(15 <= 20 && 25 >= 25 || 5 === "5");
+// // // // // // // // // // 10
+// // // // // // // // // console.log(15 <= 20 && 25 >= 25 || 5 === "5");
 
-// // //          true  && true  = true || false = true.
+// // // // // // // // // //          true  && true  = true || false = true.
 
 
 
 
-// // // 5. ternary operator
+// // // // // // // // // // 5. ternary operator
 
 
-// // // condition ? statement : statement 
+// // // // // // // // // // condition ? statement : statement 
 
 
-// // 5 == "5" ? console.log("true") : console.log("false");
+// // // // // // // // // 5 == "5" ? console.log("true") : console.log("false");
 
 
-// // let pwd = false ; 
+// // // // // // // // // let pwd = false ; 
 
-// // pwd ? console.log("you can allow the home page") : console.log("invalid password");
+// // // // // // // // // pwd ? console.log("you can allow the home page") : console.log("invalid password");
 
 
 
-// // console.clear();
+// // // // // // // // // console.clear();
 
 
 
-// // // concatination  (+)
+// // // // // // // // // // concatination  (+)
 
-// // let str1 = "spider"
-// // let str2 = "man"
+// // // // // // // // // let str1 = "spider"
+// // // // // // // // // let str2 = "man"
 
-// // console.log(str1 +" "+ str2);
+// // // // // // // // // console.log(str1 +" "+ str2);
 
 
-// // // template string -  ``
+// // // // // // // // // // template string -  ``
 
-// // console.log(`${str1} ${str2}`);
+// // // // // // // // // console.log(`${str1} ${str2}`);
 
 
 
-// // // typeCasting
+// // // // // // // // // // typeCasting
 
-// // // implicit type casting
+// // // // // // // // // // implicit type casting
 
-// // // string 
+// // // // // // // // // // string 
 
-// // console.log(typeof("abc" + "abc"));
-// // console.log(typeof("abc" + 1));
-// // console.log(typeof("abc" + true));
-// // console.log(typeof("abc" + undefined));
-// // console.log(typeof("abc" + null));
+// // // // // // // // // console.log(typeof("abc" + "abc"));
+// // // // // // // // // console.log(typeof("abc" + 1));
+// // // // // // // // // console.log(typeof("abc" + true));
+// // // // // // // // // console.log(typeof("abc" + undefined));
+// // // // // // // // // console.log(typeof("abc" + null));
 
-// // console.log(typeof("abc" + [1,2]));
-// // console.log(typeof("abc" + {k:3}));
+// // // // // // // // // console.log(typeof("abc" + [1,2]));
+// // // // // // // // // console.log(typeof("abc" + {k:3}));
 
-// // console.log("number type casting :-");
+// // // // // // // // // console.log("number type casting :-");
 
-// // // number 
+// // // // // // // // // // number 
 
-// // console.log(typeof(1 + "abc"));
-// // console.log(typeof(1 + 1));
-// // console.log(typeof(1 + true));
-// // console.log(typeof(1 + undefined));
-// // console.log(typeof(1 + null));
+// // // // // // // // // console.log(typeof(1 + "abc"));
+// // // // // // // // // console.log(typeof(1 + 1));
+// // // // // // // // // console.log(typeof(1 + true));
+// // // // // // // // // console.log(typeof(1 + undefined));
+// // // // // // // // // console.log(typeof(1 + null));
 
-// // console.log(typeof(1 + [3,4]));
-// // console.log(typeof(1 + {j:8}));
+// // // // // // // // // console.log(typeof(1 + [3,4]));
+// // // // // // // // // console.log(typeof(1 + {j:8}));
 
-// // // boolean 
+// // // // // // // // // // boolean 
 
-// // console.log("boolean type casting :- ");
+// // // // // // // // // console.log("boolean type casting :- ");
 
-// // console.log(typeof(true + "abc"));
-// // console.log(typeof(true + 1));
-// // console.log(typeof(true + true));
-// // console.log(typeof(true + undefined));
+// // // // // // // // // console.log(typeof(true + "abc"));
+// // // // // // // // // console.log(typeof(true + 1));
+// // // // // // // // // console.log(typeof(true + true));
+// // // // // // // // // console.log(typeof(true + undefined));
 
-// // console.log(typeof(true + [1,2]));
-// // console.log(typeof(true + {j:8}));
+// // // // // // // // // console.log(typeof(true + [1,2]));
+// // // // // // // // // console.log(typeof(true + {j:8}));
 
 
-// // // explicit type casting
+// // // // // // // // // // explicit type casting
 
 
-// // // number 
+// // // // // // // // // // number 
 
-// // // constractor - Number()
+// // // // // // // // // // constractor - Number()
 
-// // console.log(typeof(1 + Number("1")));
+// // // // // // // // // console.log(typeof(1 + Number("1")));
 
-// // console.log(Number());
-// // console.log(Number(""));
-// // console.log(Number("1234"));
-// // console.log(Number("abc"));
-// // console.log(Number(true));
-// // console.log(Number(false));
-// // console.log(Number(0));
-// // console.log(Number(-1));
-// // console.log(Number(1));
-// // console.log(Number(undefined));
-// // console.log(Number(null));
-// // console.log(Number([1,3]));
-// // console.log(Number({j:9}));
+// // // // // // // // // console.log(Number());
+// // // // // // // // // console.log(Number(""));
+// // // // // // // // // console.log(Number("1234"));
+// // // // // // // // // console.log(Number("abc"));
+// // // // // // // // // console.log(Number(true));
+// // // // // // // // // console.log(Number(false));
+// // // // // // // // // console.log(Number(0));
+// // // // // // // // // console.log(Number(-1));
+// // // // // // // // // console.log(Number(1));
+// // // // // // // // // console.log(Number(undefined));
+// // // // // // // // // console.log(Number(null));
+// // // // // // // // // console.log(Number([1,3]));
+// // // // // // // // // console.log(Number({j:9}));
 
-// // // constractor - Boolean()
+// // // // // // // // // // constractor - Boolean()
 
 
-// // console.log(Boolean());
-// // console.log(Boolean(""));
-// // console.log(Boolean("1234"));
-// // console.log(Boolean("abc"));
-// // console.log(Boolean(undefined));
-// // console.log(Boolean(0));
-// // console.log(Boolean(-1));
-// // console.log(Boolean(1));
-// // console.log(Boolean(true));
-// // console.log(Boolean(false));
-// // console.log(Boolean(null));
-// // console.log(Boolean([]));
-// // console.log(Boolean({}));
+// // // // // // // // // console.log(Boolean());
+// // // // // // // // // console.log(Boolean(""));
+// // // // // // // // // console.log(Boolean("1234"));
+// // // // // // // // // console.log(Boolean("abc"));
+// // // // // // // // // console.log(Boolean(undefined));
+// // // // // // // // // console.log(Boolean(0));
+// // // // // // // // // console.log(Boolean(-1));
+// // // // // // // // // console.log(Boolean(1));
+// // // // // // // // // console.log(Boolean(true));
+// // // // // // // // // console.log(Boolean(false));
+// // // // // // // // // console.log(Boolean(null));
+// // // // // // // // // console.log(Boolean([]));
+// // // // // // // // // console.log(Boolean({}));
 
 
 
 
 
-// // console.clear();
+// // // // // // // // // console.clear();
 
 
-// // // Flow control statement 
+// // // // // // // // // // Flow control statement 
 
-// // // 1. conditonal statement
+// // // // // // // // // // 1. conditonal statement
 
-// // // 1. if statement 
+// // // // // // // // // // 1. if statement 
 
-// // // flow : -  if(condition =  true){allow}
+// // // // // // // // // // flow : -  if(condition =  true){allow}
 
 
-// // if(6>=6){
+// // // // // // // // // if(6>=6){
 
-// //     console.log("hi");
+// // // // // // // // //     console.log("hi");
     
-// // }
+// // // // // // // // // }
 
 
-// // // 2. if-else statement
+// // // // // // // // // // 2. if-else statement
 
-// // // flow :- if(condition = true){allow}else{condition = false here allow}
+// // // // // // // // // // flow :- if(condition = true){allow}else{condition = false here allow}
 
-// // let age = 21
-// // if(age >= 18){
-// //     console.log("can vote");
+// // // // // // // // // let age = 21
+// // // // // // // // // if(age >= 18){
+// // // // // // // // //     console.log("can vote");
     
-// // }else{
-// //     console.log("cant vote");
+// // // // // // // // // }else{
+// // // // // // // // //     console.log("cant vote");
     
-// // }
+// // // // // // // // // }
 
 
-// // // else if statement 
+// // // // // // // // // // else if statement 
 
-// // let time = 25
+// // // // // // // // // let time = 25
 
-// // if(time >= 1 && time <= 6){
-// //     console.log("early morning");
+// // // // // // // // // if(time >= 1 && time <= 6){
+// // // // // // // // //     console.log("early morning");
     
-// // }else if(time >= 7 && time <= 12){
-// //     console.log("good morning");
+// // // // // // // // // }else if(time >= 7 && time <= 12){
+// // // // // // // // //     console.log("good morning");
     
-// // }else if(time >= 13 && time <= 15){
-// //     console.log("good afternoon");
+// // // // // // // // // }else if(time >= 13 && time <= 15){
+// // // // // // // // //     console.log("good afternoon");
     
-// // }else if(time >= 16 && time <= 19){
-// //     console.log("good evening");
+// // // // // // // // // }else if(time >= 16 && time <= 19){
+// // // // // // // // //     console.log("good evening");
     
-// // }else if(time >= 20 && time <= 24){
-// //     console.log("good night");
+// // // // // // // // // }else if(time >= 20 && time <= 24){
+// // // // // // // // //     console.log("good night");
     
-// // }else{
-// //     console.log("invalid time");
+// // // // // // // // // }else{
+// // // // // // // // //     console.log("invalid time");
     
-// // }
+// // // // // // // // // }
 
-// // // 4. nested if statement 
-
-
-// // // let age1 =  prompt("enter your age ")
-// // // let height =   prompt("enter your height use cm ")
-// // // let weight =  prompt("enter your weight use kg")
+// // // // // // // // // // 4. nested if statement 
 
 
-// // // if(age1 >= 21){
-// // //     if(height >= 170){
-// // //         if(weight >= 70){
-// // //             alert("congradulation your eligible");
+// // // // // // // // // // let age1 =  prompt("enter your age ")
+// // // // // // // // // // let height =   prompt("enter your height use cm ")
+// // // // // // // // // // let weight =  prompt("enter your weight use kg")
+
+
+// // // // // // // // // // if(age1 >= 21){
+// // // // // // // // // //     if(height >= 170){
+// // // // // // // // // //         if(weight >= 70){
+// // // // // // // // // //             alert("congradulation your eligible");
             
-// // //         }else{
-// // //             alert(`your weight is ${weight}kg. , but needed 70 kg`);
+// // // // // // // // // //         }else{
+// // // // // // // // // //             alert(`your weight is ${weight}kg. , but needed 70 kg`);
             
-// // //         }
+// // // // // // // // // //         }
 
-// // //     }else{
-// // //         alert(`your height is ${height} cm. , but needed 170 cm`);
+// // // // // // // // // //     }else{
+// // // // // // // // // //         alert(`your height is ${height} cm. , but needed 170 cm`);
         
-// // //     }
+// // // // // // // // // //     }
     
-// // // }else{
-// // //     alert(`your age is ${age1}yr old only ,  but wants 21 atleast.`);
+// // // // // // // // // // }else{
+// // // // // // // // // //     alert(`your age is ${age1}yr old only ,  but wants 21 atleast.`);
     
-// // // }
+// // // // // // // // // // }
 
 
 
-// // // 5. switch statement
+// // // // // // // // // // 5. switch statement
 
-// // // switch (key) {
-// // //     case value: statement
+// // // // // // // // // // switch (key) {
+// // // // // // // // // //     case value: statement
         
-// // //         break;
-// // //     case value: statement
+// // // // // // // // // //         break;
+// // // // // // // // // //     case value: statement
         
-// // //         break;
-// // //     case value: statement
+// // // // // // // // // //         break;
+// // // // // // // // // //     case value: statement
         
-// // //         break;
-// // //     case value: statement
+// // // // // // // // // //         break;
+// // // // // // // // // //     case value: statement
         
-// // //         break;
+// // // // // // // // // //         break;
 
-// // //     default:
-// // //         break;
-// // // }
+// // // // // // // // // //     default:
+// // // // // // // // // //         break;
+// // // // // // // // // // }
 
 
-// // let trafficLight = "red"
+// // // // // // // // // let trafficLight = "red"
 
-// // switch(trafficLight){
-// //     case "red" : console.log("stop the vechile"); break;
-// //     case "yellow" : console.log("start the vechile"); break;
-// //     case "green" : console.log("go the vechile"); break;
+// // // // // // // // // switch(trafficLight){
+// // // // // // // // //     case "red" : console.log("stop the vechile"); break;
+// // // // // // // // //     case "yellow" : console.log("start the vechile"); break;
+// // // // // // // // //     case "green" : console.log("go the vechile"); break;
 
-// //     default : console.log("have the nice day");break;
+// // // // // // // // //     default : console.log("have the nice day");break;
     
     
-// // }
+// // // // // // // // // }
 
 
 
@@ -757,985 +757,1565 @@
 
 
 
-// // console.clear();
+// // // // // // // // // console.clear();
 
 
-// // // 2. looping statement
+// // // // // // // // // // 2. looping statement
 
-// // console.log(1);
-// // console.log(2);
-// // console.log(3);
-// // console.log(4);
-// // console.log(5);
-
-
-// // // for loop
-
-// // // for(intialization ; condition ; iteration){
-// // //     statement 
-// // // }
-
-// // for(let a = 1 ; a <= 5 ; a++){
-// //     console.log("forloop :-",a); // 1 2 3 4 5
-// // }
+// // // // // // // // // console.log(1);
+// // // // // // // // // console.log(2);
+// // // // // // // // // console.log(3);
+// // // // // // // // // console.log(4);
+// // // // // // // // // console.log(5);
 
 
-// // // let a = 1 ; 1 <= 5 = true ; 1++ = 2
-// // // let a = 2 ; 2 <= 5 = true ; 2++ = 3
-// // // let a = 3 ; 3 <= 5 = true ; 3++ = 4
-// // // let a = 4 ; 4 <= 5 = true ; 4++ = 5
-// // // let a = 5 ; 5 <= 5 = true ; 5++ = 6
-// // // let a = 6 ; 6 <= 5 = false. 
+// // // // // // // // // // for loop
+
+// // // // // // // // // // for(intialization ; condition ; iteration){
+// // // // // // // // // //     statement 
+// // // // // // // // // // }
+
+// // // // // // // // // for(let a = 1 ; a <= 5 ; a++){
+// // // // // // // // //     console.log("forloop :-",a); // 1 2 3 4 5
+// // // // // // // // // }
+
+
+// // // // // // // // // // let a = 1 ; 1 <= 5 = true ; 1++ = 2
+// // // // // // // // // // let a = 2 ; 2 <= 5 = true ; 2++ = 3
+// // // // // // // // // // let a = 3 ; 3 <= 5 = true ; 3++ = 4
+// // // // // // // // // // let a = 4 ; 4 <= 5 = true ; 4++ = 5
+// // // // // // // // // // let a = 5 ; 5 <= 5 = true ; 5++ = 6
+// // // // // // // // // // let a = 6 ; 6 <= 5 = false. 
 
 
 
 
-// // // while loop 
+// // // // // // // // // // while loop 
 
 
-// // // intialization
+// // // // // // // // // // intialization
 
-// // // while(condition){
-// // //     statement
+// // // // // // // // // // while(condition){
+// // // // // // // // // //     statement
 
-// // //     iteration
-// // // }
+// // // // // // // // // //     iteration
+// // // // // // // // // // }
 
 
-// // let val10 = 3
+// // // // // // // // // let val10 = 3
 
-// // while(val10 >= 0){
-// //     console.log(val10);
+// // // // // // // // // while(val10 >= 0){
+// // // // // // // // //     console.log(val10);
     
 
-// //     val10--
-// // }
+// // // // // // // // //     val10--
+// // // // // // // // // }
 
 
-// // // 3  ; 3 >= 0 = true ; 3 ; 3-- ; 2
-// // // 2  ; 2 >= 0 = true ; 2 ; 2-- ; 1
-// // // 1  ; 1 >= 0 = true ; 1 ; 1-- ; 0
-// // // 0  ; 0 >= 0 = true ; 0 ; 0-- ; -1
-// // // -1 ; -1 >= 0 = false.
+// // // // // // // // // // 3  ; 3 >= 0 = true ; 3 ; 3-- ; 2
+// // // // // // // // // // 2  ; 2 >= 0 = true ; 2 ; 2-- ; 1
+// // // // // // // // // // 1  ; 1 >= 0 = true ; 1 ; 1-- ; 0
+// // // // // // // // // // 0  ; 0 >= 0 = true ; 0 ; 0-- ; -1
+// // // // // // // // // // -1 ; -1 >= 0 = false.
 
 
-// // let attempt = 1
+// // // // // // // // // let attempt = 1
 
-// // while(attempt<=3){
+// // // // // // // // // while(attempt<=3){
 
-// //     console.log("attempt Count :",attempt);
+// // // // // // // // //     console.log("attempt Count :",attempt);
 
-// //     attempt++
+// // // // // // // // //     attempt++
     
-// // }
+// // // // // // // // // }
 
 
 
-// // let atempt = 1
+// // // // // // // // // let atempt = 1
 
-// // let correctOTP = 1234
+// // // // // // // // // let correctOTP = 1234
 
-// // let enterOTP   = 1234
+// // // // // // // // // let enterOTP   = 1234
 
-// // while(atempt <= 3){
-// //     console.log("checking");
+// // // // // // // // // while(atempt <= 3){
+// // // // // // // // //     console.log("checking");
 
-// //     if(enterOTP===correctOTP){
-// //         console.log("otp is correct");
-// //         break;
+// // // // // // // // //     if(enterOTP===correctOTP){
+// // // // // // // // //         console.log("otp is correct");
+// // // // // // // // //         break;
         
-// //     }
-// //         console.log("wrong otp");
-// //         atempt++
+// // // // // // // // //     }
+// // // // // // // // //         console.log("wrong otp");
+// // // // // // // // //         atempt++
         
     
     
-// // }
+// // // // // // // // // }
 
 
 
-// // let value = 4
+// // // // // // // // // let value = 4
 
-// // while(value >= 20){ // stoped
-// //     console.log("while loop :",value);
+// // // // // // // // // while(value >= 20){ // stoped
+// // // // // // // // //     console.log("while loop :",value);
 
-// //     value--
+// // // // // // // // //     value--
     
-// // }
+// // // // // // // // // }
 
 
-// // // do while loop
+// // // // // // // // // // do while loop
 
-// // // intialization 
+// // // // // // // // // // intialization 
 
-// // // do{
-// // //     statement 
+// // // // // // // // // // do{
+// // // // // // // // // //     statement 
 
-// // //     iteration
-// // // }
+// // // // // // // // // //     iteration
+// // // // // // // // // // }
 
-// // // while(condition)
+// // // // // // // // // // while(condition)
 
-// // let value1 = 4 
+// // // // // // // // // let value1 = 4 
 
-// // do{
-// //     console.log(value1);
+// // // // // // // // // do{
+// // // // // // // // //     console.log(value1);
 
-// //     value1--
+// // // // // // // // //     value1--
     
-// // }
+// // // // // // // // // }
 
 
-// // while(value1>=2)
+// // // // // // // // // while(value1>=2)
 
 
 
-// // // for of loop - string , array , function
+// // // // // // // // // // for of loop - string , array , function
 
-// // let str = "javascript"
+// // // // // // // // // let str = "javascript"
 
-// // for(let b of str){
-// //     console.log(b);
+// // // // // // // // // for(let b of str){
+// // // // // // // // //     console.log(b);
     
-// // }
+// // // // // // // // // }
 
-// // let arr = ["apple","orange","banana","graps"]
+// // // // // // // // // let arr = ["apple","orange","banana","graps"]
 
-// // for(let c of arr){
-// //     console.log(c);
+// // // // // // // // // for(let c of arr){
+// // // // // // // // //     console.log(c);
     
-// // }
+// // // // // // // // // }
 
 
 
 
-// // // for in loop - object
+// // // // // // // // // // for in loop - object
 
 
-// // let obj = {
-// //     name1 : "arun",
-// //     empId : "STK-26-3333",
-// //     role  : "software engineer"  
-// // }
+// // // // // // // // // let obj = {
+// // // // // // // // //     name1 : "arun",
+// // // // // // // // //     empId : "STK-26-3333",
+// // // // // // // // //     role  : "software engineer"  
+// // // // // // // // // }
 
-// // for(let d in obj){
-// //     console.log(d , obj[d]);
+// // // // // // // // // for(let d in obj){
+// // // // // // // // //     console.log(d , obj[d]);
     
-// // }
+// // // // // // // // // }
 
 
 
-// // console.clear();
+// // // // // // // // // console.clear();
 
 
-// // // function 
+// // // // // // // // // // function 
 
-// // // block of code 
-// // // reusable code 
-// // // specific task
-// // // invoke after code excuit
-// // // reusable value
-// // // easy debug
-// // // avoid repeatation code
-// // // clean & easy readable
-// // // set of instractution
-
-
-// // // syntex :- 
-
-// // // function first(parameter){
-// // //     statement 
-// // //     return 
-// // //     yeild
-// // // }
-
-// // // first(argument)
+// // // // // // // // // // block of code 
+// // // // // // // // // // reusable code 
+// // // // // // // // // // specific task
+// // // // // // // // // // invoke after code excuit
+// // // // // // // // // // reusable value
+// // // // // // // // // // easy debug
+// // // // // // // // // // avoid repeatation code
+// // // // // // // // // // clean & easy readable
+// // // // // // // // // // set of instractution
 
 
-// // function example1(){
-// //     console.log("hello");
+// // // // // // // // // // syntex :- 
 
-// //     if(true){
-// //         console.log("hi");
+// // // // // // // // // // function first(parameter){
+// // // // // // // // // //     statement 
+// // // // // // // // // //     return 
+// // // // // // // // // //     yeild
+// // // // // // // // // // }
+
+// // // // // // // // // // first(argument)
+
+
+// // // // // // // // // function example1(){
+// // // // // // // // //     console.log("hello");
+
+// // // // // // // // //     if(true){
+// // // // // // // // //         console.log("hi");
         
-// //     }
+// // // // // // // // //     }
 
-// //     for(let i = 1; i <= 5; i++){
-// //         console.log(i);
+// // // // // // // // //     for(let i = 1; i <= 5; i++){
+// // // // // // // // //         console.log(i);
         
-// //     }
+// // // // // // // // //     }
     
-// // }
+// // // // // // // // // }
 
-// // example1()
-
-
-// // // parameter /  argument
+// // // // // // // // // example1()
 
 
-// // function example2(name,department,cgpa){
-
-// //     console.log("name :",name);
-// //     console.log("department :",department);
-// //     console.log("cgpa :",cgpa);
-// // }
-
-// // example2("kamal","ECE",7.22)
-// // example2("Livin","ECE",9.1)
+// // // // // // // // // // parameter /  argument
 
 
-// // // return
+// // // // // // // // // function example2(name,department,cgpa){
+
+// // // // // // // // //     console.log("name :",name);
+// // // // // // // // //     console.log("department :",department);
+// // // // // // // // //     console.log("cgpa :",cgpa);
+// // // // // // // // // }
+
+// // // // // // // // // example2("kamal","ECE",7.22)
+// // // // // // // // // example2("Livin","ECE",9.1)
 
 
-// // function example3(value){
-// //     return value
-// // }
-
-// // let aa = example3(100)
+// // // // // // // // // // return
 
 
-// // function example4(){
-// //     console.log(aa + 5);
+// // // // // // // // // function example3(value){
+// // // // // // // // //     return value
+// // // // // // // // // }
+
+// // // // // // // // // let aa = example3(100)
+
+
+// // // // // // // // // function example4(){
+// // // // // // // // //     console.log(aa + 5);
     
-// // }
+// // // // // // // // // }
 
-// // example4()
-
-
+// // // // // // // // // example4()
 
 
-// // // example 
 
 
-// // function emp(salary){
-// //     return salary
-// // }
+// // // // // // // // // // example 
 
-// // let bb = emp(45000)
 
-// // console.log(bb);
+// // // // // // // // // function emp(salary){
+// // // // // // // // //     return salary
+// // // // // // // // // }
 
-// // function festival(bonus){
-// //     console.log(bb + bonus);
+// // // // // // // // // let bb = emp(45000)
+
+// // // // // // // // // console.log(bb);
+
+// // // // // // // // // function festival(bonus){
+// // // // // // // // //     console.log(bb + bonus);
     
-// // }
+// // // // // // // // // }
 
-// // festival(5000)
+// // // // // // // // // festival(5000)
 
 
 
-// // let obj1 = {
-// //     name2 : "ram",
-// //     salary: 100000
-// // }
+// // // // // // // // // let obj1 = {
+// // // // // // // // //     name2 : "ram",
+// // // // // // // // //     salary: 100000
+// // // // // // // // // }
 
-// // function example6(){
-// //     console.log(obj1.name2);
-// //     console.log(obj1.salary);
+// // // // // // // // // function example6(){
+// // // // // // // // //     console.log(obj1.name2);
+// // // // // // // // //     console.log(obj1.salary);
     
-// // }
+// // // // // // // // // }
 
-// // example6()
+// // // // // // // // // example6()
 
 
-// // console.clear();
+// // // // // // // // // console.clear();
 
-// // // type of function
+// // // // // // // // // // type of function
 
-// // // named function 
-// // named("named function")
+// // // // // // // // // // named function 
+// // // // // // // // // named("named function")
 
-// // function named(parameter){
-// //     console.log(parameter);
+// // // // // // // // // function named(parameter){
+// // // // // // // // //     console.log(parameter);
     
-// // }
+// // // // // // // // // }
 
 
-// // // annonymous function 
+// // // // // // // // // // annonymous function 
 
-// // var annonymous = function(parameter){
-// //     console.log(parameter);
+// // // // // // // // // var annonymous = function(parameter){
+// // // // // // // // //     console.log(parameter);
     
-// // }
-// // annonymous("annonymous function")
+// // // // // // // // // }
+// // // // // // // // // annonymous("annonymous function")
 
 
-// // // arrow function
+// // // // // // // // // // arrow function
 
 
-// // var arrow = (parameter)=>{
+// // // // // // // // // var arrow = (parameter)=>{
     
-// //     console.log(parameter);
-    
-    
-// // }
-// // arrow("arrow function")
-
-
-
-// // // scope 
-
-
-// // // function scopeCheck(){
-// // //     if(true){
-// // //         var a5 = "global scope"
-// // //         let b5 = "block scope"
-// // //         const c5 = "block scope"
-// // //         console.log(b5);
-// // //         console.log(c5);
-// // //     }
-// // //     console.log(a5);
-    
-
+// // // // // // // // //     console.log(parameter);
     
     
-// // // }
-
-// // // scopeCheck()
-
-
-// // // // hoisting
-
-
-// // // var a6 = 5
-// // // console.log(a6);
-
-// // // let b6 = 6
-// // // console.log(b6);
-
-// // // const c6 = 7
-// // // console.log(c6);
+// // // // // // // // // }
+// // // // // // // // // arrow("arrow function")
 
 
 
-// // // higher order function  / callback function 
+// // // // // // // // // // scope 
 
-// // function function1(){
-// //     console.log("higher order function");
+
+// // // // // // // // // // function scopeCheck(){
+// // // // // // // // // //     if(true){
+// // // // // // // // // //         var a5 = "global scope"
+// // // // // // // // // //         let b5 = "block scope"
+// // // // // // // // // //         const c5 = "block scope"
+// // // // // // // // // //         console.log(b5);
+// // // // // // // // // //         console.log(c5);
+// // // // // // // // // //     }
+// // // // // // // // // //     console.log(a5);
     
-// // }
 
-// // function function2(){
-// //     console.log("callback function");
-    
-// // }
-
-// // function1(function2())
-
-
-// // // example:-
-
-
-// // function add(callback,a,b){ // callback = sub,a=20,b=40
-// //     console.log(a+b); // 20 + 40 = 60
-// //     callback(20,20)   // sub(20,20) 
-// // }
-
-
-// // let sub = function(num1,num2){
-// //     console.log(num1-num2); // 20-20 = 0
-    
-// // }
-
-
-// // add(sub,20,40)
-
-
-// // // 20,40 
-// // // 60,20
-// // // 40,60
-// // // 60,0
-
-
-
-// // // generator function 
-
-// // function* rewards(){
-// //     yield "10% cashback"
-// //     yield "50% cashback"
-// //     yield "20% flat off"
-// //     yield "70% cashback"
-// //     yield "better luck next time"
-// // }
-
-
-// // let showApp = rewards()
-
-// // console.log(showApp.next().value);
-// // console.log(showApp.next().value);
-// // console.log(showApp.next().value);
-
-
-// // console.log(showApp.next());
-
-// // if(showApp.next().done){
-// //     console.log("rewards completed");
-    
-// // }
-
-
-// // // IIFE function 
-
-
-// // (function(parameter){
-// //     statement
-// //     return
-// //     yield
-
-// // })(argument)
-
-
-// (function(product,discount){
-//     alert(`sale going on ${product}, discount is ${discount}%`)
-// })("furniture",50)
-
-
-
-
-
-
-// let amount = 10000
-
-// let withdrawal = Number(prompt("enter your withdrawal amount"))
-
-
-// if(withdrawal <= 0){ // 500 <= 0 false
-//     console.log("invalid amount: give greater then 0");
-    
-// }else if(withdrawal > amount){ // 500 > 10000 false
-//     console.log("insufficient balance");
-    
-// }else if(withdrawal % 100 !== 0){ // 500 % 100 = 0 !== 0 false
-//     console.log("invalid amount : Withdrawal amount should be a multiple of 100");
-    
-// }else{
-//     amount = amount- withdrawal; // 9500 = 10000-500 
-
-//     console.log("withdrawel successful");
-//     console.log("Remain Amount :",amount);
     
     
-// }
+// // // // // // // // // // }
+
+// // // // // // // // // // scopeCheck()
 
 
-// function clgForm(name,department,disability = "no"){
-//     console.log("name :",name);
-//     console.log("department :",department);
-//     console.log("disability :",disability);
+// // // // // // // // // // // hoisting
+
+
+// // // // // // // // // // var a6 = 5
+// // // // // // // // // // console.log(a6);
+
+// // // // // // // // // // let b6 = 6
+// // // // // // // // // // console.log(b6);
+
+// // // // // // // // // // const c6 = 7
+// // // // // // // // // // console.log(c6);
+
+
+
+// // // // // // // // // // higher order function  / callback function 
+
+// // // // // // // // // function function1(){
+// // // // // // // // //     console.log("higher order function");
     
-// }
+// // // // // // // // // }
+
+// // // // // // // // // function function2(){
+// // // // // // // // //     console.log("callback function");
+    
+// // // // // // // // // }
+
+// // // // // // // // // function1(function2())
 
 
-// clgForm("livin","Ece")
+// // // // // // // // // // example:-
 
 
-// currying starcture
+// // // // // // // // // function add(callback,a,b){ // callback = sub,a=20,b=40
+// // // // // // // // //     console.log(a+b); // 20 + 40 = 60
+// // // // // // // // //     callback(20,20)   // sub(20,20) 
+// // // // // // // // // }
 
 
-function a(a){
-    return function(b){
-        return function(c){
-            console.log(a+b+c);
+// // // // // // // // // let sub = function(num1,num2){
+// // // // // // // // //     console.log(num1-num2); // 20-20 = 0
+    
+// // // // // // // // // }
+
+
+// // // // // // // // // add(sub,20,40)
+
+
+// // // // // // // // // // 20,40 
+// // // // // // // // // // 60,20
+// // // // // // // // // // 40,60
+// // // // // // // // // // 60,0
+
+
+
+// // // // // // // // // // generator function 
+
+// // // // // // // // // function* rewards(){
+// // // // // // // // //     yield "10% cashback"
+// // // // // // // // //     yield "50% cashback"
+// // // // // // // // //     yield "20% flat off"
+// // // // // // // // //     yield "70% cashback"
+// // // // // // // // //     yield "better luck next time"
+// // // // // // // // // }
+
+
+// // // // // // // // // let showApp = rewards()
+
+// // // // // // // // // console.log(showApp.next().value);
+// // // // // // // // // console.log(showApp.next().value);
+// // // // // // // // // console.log(showApp.next().value);
+
+
+// // // // // // // // // console.log(showApp.next());
+
+// // // // // // // // // if(showApp.next().done){
+// // // // // // // // //     console.log("rewards completed");
+    
+// // // // // // // // // }
+
+
+// // // // // // // // // // IIFE function 
+
+
+// // // // // // // // // (function(parameter){
+// // // // // // // // //     statement
+// // // // // // // // //     return
+// // // // // // // // //     yield
+
+// // // // // // // // // })(argument)
+
+
+// // // // // // // // (function(product,discount){
+// // // // // // // //     alert(`sale going on ${product}, discount is ${discount}%`)
+// // // // // // // // })("furniture",50)
+
+
+
+
+
+
+// // // // // // // // let amount = 10000
+
+// // // // // // // // let withdrawal = Number(prompt("enter your withdrawal amount"))
+
+
+// // // // // // // // if(withdrawal <= 0){ // 500 <= 0 false
+// // // // // // // //     console.log("invalid amount: give greater then 0");
+    
+// // // // // // // // }else if(withdrawal > amount){ // 500 > 10000 false
+// // // // // // // //     console.log("insufficient balance");
+    
+// // // // // // // // }else if(withdrawal % 100 !== 0){ // 500 % 100 = 0 !== 0 false
+// // // // // // // //     console.log("invalid amount : Withdrawal amount should be a multiple of 100");
+    
+// // // // // // // // }else{
+// // // // // // // //     amount = amount- withdrawal; // 9500 = 10000-500 
+
+// // // // // // // //     console.log("withdrawel successful");
+// // // // // // // //     console.log("Remain Amount :",amount);
+    
+    
+// // // // // // // // }
+
+
+// // // // // // // // function clgForm(name,department,disability = "no"){
+// // // // // // // //     console.log("name :",name);
+// // // // // // // //     console.log("department :",department);
+// // // // // // // //     console.log("disability :",disability);
+    
+// // // // // // // // }
+
+
+// // // // // // // // clgForm("livin","Ece")
+
+
+// // // // // // // // currying starcture
+
+
+// // // // // // // function a(a){
+// // // // // // //     return function(b){
+// // // // // // //         return function(c){
+// // // // // // //             console.log(a+b+c);
             
-        }
-    }
+// // // // // // //         }
+// // // // // // //     }
+// // // // // // // }
+
+// // // // // // // a(10)(20)(30)
+
+
+// // // // // // // // uncurrying stracture
+
+// // // // // // // function a1(a,b,c){
+// // // // // // //     console.log(a+b+c);
+    
+// // // // // // // }
+
+// // // // // // // a1(10,20,30)
+
+
+
+// // // // // // // // DataStracture
+
+// // // // // // // // es6 edition
+
+// // // // // // // // Spread operator
+
+// // // // // // // // array , object
+// // // // // // // // merge the value 
+// // // // // // // // clone
+
+// // // // // // // // Array Spread operator - [...]
+
+// // // // // // // let arr11 = [1,2,3,4]
+// // // // // // // let arr21 = [5,6,7,8]
+
+// // // // // // // let newArr = [...arr11,...arr21,9,10]
+
+// // // // // // // console.log(newArr);
+
+// // // // // // // // object spread operator - {...}
+
+// // // // // // // let obj1 = {name1 :"a", role1 : "trainee"}
+// // // // // // // let obj2 = {name : "b", role : "developer"}
+
+// // // // // // // let empDetials = {...obj1,...obj2,department : "pythonDeveloper"}
+// // // // // // // // let newObj     = Object.assign({},obj1,obj2)
+
+
+// // // // // // // // console.log(newObj);
+
+// // // // // // // console.log(empDetials);
+
+
+
+
+
+
+
+// // // // // // // // rest operator
+
+// // // // // // // // function - (...) 
+
+// // // // // // // // multiple argument single parameter inside
+
+// // // // // // // function add(a,b,c,d,...e){
+// // // // // // //     console.log(a,b,c,d);
+
+// // // // // // //     console.log(e);
+// // // // // // //     console.log(e[0]+e[1]+e[5]+e[2]);
+// // // // // // //     let [x1,x2,x3,x4,x5,x6] = e
+
+// // // // // // //     console.log(x1 + x2 + x6 + x3);
+    
+
+    
+    
+    
+// // // // // // // }
+
+// // // // // // // add(1,2,3,4,5,6,7,8,9,10)
+
+
+// // // // // // // // destracture
+
+
+// // // // // // // // let aa = [1,2,3,4]
+
+
+
+
+// // // // // // // // let z1 = aa[0] 
+// // // // // // // // let z2 = aa[1] 
+// // // // // // // // let z3 = aa[2] 
+// // // // // // // // let z4 = aa[3] 
+
+// // // // // // // // console.log(z1,z2,z3,z4);
+
+// // // // // // // // // Array Destracture 
+
+// // // // // // // // let [y1,y2,y3,y4] = aa
+
+// // // // // // // // console.log(y1,y2,y3,y4);
+
+
+// // // // // // // // nested Array 
+
+
+// // // // // // // let nested = [1,2,[3,4,[5,6,[7]]]]
+
+// // // // // // // let g1 = nested[0]
+// // // // // // // let g2 = nested[1]
+// // // // // // // let g3 = nested[2][0]
+// // // // // // // let g4 = nested[2][1]
+// // // // // // // let g5 = nested[2][2][0]
+// // // // // // // let g6 = nested[2][2][1]
+// // // // // // // let g7 = nested[2][2][2][0]
+
+
+// // // // // // // console.log(g1,g2,g3,g4,g5,g6,g7);
+
+
+// // // // // // // // Destracture Nested Array
+
+// // // // // // // let [f1,f2,[f3,f4,[f5,f6,[f7]]]] = nested
+
+// // // // // // // console.log(f1,f2,f3,f4,f5,f6,f7);
+
+
+
+// // // // // // // // object 
+
+// // // // // // // let exampleObj = {
+// // // // // // //     name2 : "john",
+// // // // // // //     role2 : "mern stack",
+// // // // // // //     salary2: 100000
+// // // // // // // }
+
+
+// // // // // // // let s1 = exampleObj.name2
+// // // // // // // let s2 = exampleObj.role2
+// // // // // // // let s3 = exampleObj.salary2
+
+// // // // // // // console.log(s1 , s2 , s3);
+
+
+// // // // // // // // nested obj
+
+
+
+
+// // // // // // // // destracture obj 
+
+
+// // // // // // // let {name2,role2,salary2} = exampleObj
+
+// // // // // // // console.log(name2,role2,salary2);
+
+
+
+
+// // // // // // // let example1Obj={
+// // // // // // //     name3:{city:"trichy",state1:"tamil nadu"}
+// // // // // // // }
+
+// // // // // // // console.log(example1Obj.name3.city);
+// // // // // // // console.log(example1Obj.name3.state);
+
+
+// // // // // // // let s4 = example1Obj.name3.city
+// // // // // // // let state = example1Obj.name3.state1
+
+// // // // // // // console.log(s4);
+// // // // // // // console.log(state);
+
+// // // // // // // // destrature obj 
+
+// // // // // // // let {name3:{city,state1}} = example1Obj
+
+// // // // // // // console.log(city);
+// // // // // // // console.log(state1);
+
+// // // // // // // console.clear();
+
+
+// // // // // // // // Array Advance concept 
+
+
+// // // // // // // let array = [1,2,3,5,6,7,"string",true,undefined,null,[1,2,3]]
+
+// // // // // // // console.log(array)
+// // // // // // // console.log(array[0]);
+// // // // // // // console.log(array[array.length-1]);
+
+// // // // // // // let sh = [1,2,3,[4,5,6],[7]]
+
+// // // // // // // console.log(sh[4][0]);
+
+// // // // // // // console.clear();
+
+
+// // // // // // // // homogenious 
+// // // // // // // // hetrogenious
+// // // // // // // // flexible
+
+// // // // // // // // array manipulation 
+
+// // // // // // // // adding - you can add multiple value
+
+// // // // // // // // remove - you can remove only one value 
+
+
+// // // // // // // let example = [1,2,3]
+
+// // // // // // // // pop()- array last value we can remove
+
+// // // // // // // example.pop()
+
+// // // // // // // // push()- array last value we can add
+
+// // // // // // // example.push(3,4,5,6,7)
+
+// // // // // // // // shift()- array first value we can remove
+
+// // // // // // // example.shift()
+
+// // // // // // // // unshift()- array first value we can add
+
+// // // // // // // example.unshift(0,1)
+
+
+// // // // // // // console.log(example);
+
+// // // // // // // // splice(startingIndex , RemoveCount ,Adding Value)
+
+// // // // // // // let example1 = [1,2,3,40,50,60,7,8,9,10]
+
+
+// // // // // // // example1.splice(3,3,4,5,6)
+
+// // // // // // // console.log(example1);
+
+
+
+
+
+// // // // // // // // array merge method 
+
+// // // // // // // // concat()
+
+// // // // // // // let array1 = [1,2,3]
+// // // // // // // let array2 = [4,5,6]
+
+// // // // // // // let TotalArray = array1.concat(array2,7,8,9)
+
+// // // // // // // console.log(TotalArray);
+
+
+// // // // // // // // slice(), 
+
+// // // // // // // let example2 = [1,2,3,50,60,70,8,9,10]
+
+// // // // // // // let sliceval = example2.slice(3,6) // startingIndex , EndIndex + 1
+
+// // // // // // // console.log(sliceval);
+
+
+
+// // // // // // // // flat(), 
+
+// // // // // // // let example3 = [1,2,[3,[4,[5,6,[7]]]]]
+
+// // // // // // // let flatVal = example3.flat(Infinity)
+
+// // // // // // // console.log(flatVal);
+
+
+// // // // // // // // fill(),
+
+// // // // // // // let example4 = [1,2,3,4] // 1,2,3,"four"
+
+// // // // // // // example4.fill("four",3,4) // value, sI , eI + 1
+
+// // // // // // // console.log(example4);
+
+
+// // // // // // // // includes,
+
+// // // // // // // let example5 = [1,56,3,8,9,20,45,0]
+
+// // // // // // // let includesVal = example5.includes(0)
+
+// // // // // // // console.log(includesVal);
+
+
+// // // // // // // // indexOf(), 
+
+// // // // // // // let example6 = [1,2,3,4,2,1,3]
+
+// // // // // // // let indexOfVal = example6.indexOf(3,3)
+
+// // // // // // // console.log(indexOfVal);
+
+
+
+
+
+
+// // // // // // // // lastIndexOf()
+
+// // // // // // // let example7 = [2,3,4,5,4,2,1,5,3,2]
+
+// // // // // // // let lastIndexOfVal = example7.lastIndexOf(2,4)
+
+// // // // // // // console.log(lastIndexOfVal);
+
+
+
+
+
+
+
+// // // // // // // // sort(), 
+
+
+// // // // // // // let example8 = [2,55678,7,4000,"a","A",3,1,0,8] // 55678 = 5.5678 , 5.5678 < 7
+
+// // // // // // // let sortVal = example8.sort()
+
+// // // // // // // console.log(sortVal);
+
+
+
+
+
+
+// // // // // // // // reverse
+
+
+// // // // // // // let example9 = [1,2,3,4]
+
+// // // // // // // let reverseVal = example9.reverse()
+
+// // // // // // // console.log(reverseVal);
+
+
+
+
+
+
+
+// // // // // // // console.clear();
+
+
+
+
+
+
+// // // // // // // // array higher order method()
+
+// // // // // // // let example10 = [1,2,3,4]
+
+// // // // // // // // forEach()
+
+// // // // // // // let newForEach = example10.forEach((currentElement, indexNumber, TotalArray)=>{
+// // // // // // //     return currentElement   
+// // // // // // // })
+
+// // // // // // // console.log(newForEach);
+
+
+// // // // // // // // map()
+
+// // // // // // // let newMap = example10.map((c,i,t)=>{
+
+// // // // // // //     return c
+
+// // // // // // // })
+
+// // // // // // // console.log(newMap);
+
+
+
+
+// // // // // // // let example11 = [
+// // // // // // //     {empName : "a",salary : 100000},
+// // // // // // //     {empName : "b",salary : 200000},
+// // // // // // //     {empName : "c",salary : 300000},
+// // // // // // //     {empName : "d",salary : 100000},
+// // // // // // //     {empName : "e",salary : 600000},
+// // // // // // //     {empName : "f",salary : 300000},
+// // // // // // //     {empName : "g",salary : 200000}
+// // // // // // // ]
+// // // // // // // // filter()
+
+
+// // // // // // // let empSalary = example11.filter((c,i,t)=>{
+// // // // // // //     return c.salary <= 200000
+// // // // // // // })
+
+// // // // // // // console.log(empSalary);
+
+
+// // // // // // // // find()
+
+
+// // // // // // // let findVal = example11.find((c,i,t)=>{
+// // // // // // //      return c.salary <= 200000
+// // // // // // // })
+
+// // // // // // // console.log(findVal);
+
+
+// // // // // // // // reduce()
+
+// // // // // // // example11 = [
+// // // // // // //     {empName : "a",salary : 100000},
+// // // // // // //     {empName : "b",salary : 200000},
+// // // // // // //     {empName : "c",salary : 300654},
+// // // // // // //     {empName : "d",salary : 17854},
+// // // // // // //     {empName : "e",salary : 600000},
+// // // // // // //     {empName : "f",salary : 300000},
+// // // // // // //     {empName : "g",salary : 200000}
+// // // // // // // ]
+
+
+// // // // // // // let clcAllSalary = example11.reduce((acc,c,i,t)=>{
+// // // // // // //     return acc + c.salary
+// // // // // // //     //     0   + 1 = 1
+// // // // // // //     //     1   + 2 = 3
+// // // // // // //     //     3   + 3 = 6
+// // // // // // //     //     6   + 1 = 7
+// // // // // // //     //     7   + 6 = 13
+// // // // // // //     //     13  + 3 = 16
+// // // // // // //     //     16  + 2 = 18
+
+// // // // // // //     //     18  + 0 = 18
+// // // // // // // },0) // 3  // 6 // 7 // 13 // 16 // 18
+
+// // // // // // // console.log(clcAllSalary);
+
+
+
+// // // // // // // // some() - or 
+
+// // // // // // // let example12 = [1,2,3,4]
+
+// // // // // // // let someval = example12.some((c,i,t)=>{
+// // // // // // //     return c%2==0
+
+// // // // // // //     // 1 % 2 == 0 = false;
+// // // // // // //     // 2 % 2 == 0 = true;
+// // // // // // //     // 3 % 2 == 0 = false;
+// // // // // // //     // 4 % 2 == 0 = true;
+
+// // // // // // //     // false || true || false || true = true
+// // // // // // // })
+
+// // // // // // // console.log(someval);
+
+
+// // // // // // // // every() - and
+
+// // // // // // // let example13 = [2,4,6,8]
+
+// // // // // // // let everyVal = example13.every((c,i,t)=>{
+// // // // // // //     return i % 2 == 0 
+// // // // // // // })
+
+// // // // // // // console.log(everyVal);
+
+
+// // // // // // // // sort()
+
+// // // // // // // let example14 = [23,5678,0,1,23,456,76,89,90,100]
+
+// // // // // // // console.log(example14.sort());
+
+
+// // // // // // // let sortVal1 = example14.sort((a,b)=>{
+
+// // // // // // //     return b - a
+
+// // // // // // // })
+
+// // // // // // // console.log(sortVal1);
+
+
+
+
+
+// // // // // // // // convert   array - > string 
+
+// // // // // // // // toString()
+
+// // // // // // // let example15 = [1,2,3,4]
+
+// // // // // // // console.log(example15.toString());
+
+
+// // // // // // // // join()
+
+// // // // // // // console.log(example15.join("  "));
+
+
+// // // // // // // console.clear();
+
+
+
+// // // // // // // // let name1 = "hari"
+
+// // // // // // // // let name12 = "priya"
+
+// // // // // // // // console.log(name1+" "+name12+  " is good girl ");
+
+// // // // // // // // console.log(`${name1} ${name12} is good girl`);
+
+
+
+// // // // // // // // Advance string Concept
+
+
+// // // // // // // let str = "javascript"
+// // // // // // // // charAt(), index -- > value
+
+// // // // // // // console.log(str.charAt(1));
+
+
+// // // // // // // // charCodeAt(), index --> asscii value 
+
+// // // // // // // console.log(str.charCodeAt(1));
+
+
+// // // // // // // // length, 
+
+// // // // // // // console.log(str.length);
+
+// // // // // // // // slice, 
+
+// // // // // // // console.log(str.slice(2,5));
+
+
+// // // // // // // // toUpperCase(), 
+
+// // // // // // // let str1 = "JAVAscript"
+
+// // // // // // // console.log(str1.toUpperCase());
+
+
+// // // // // // // // toLowerCase(),
+
+// // // // // // // console.log(str1.toLowerCase());
+
+
+// // // // // // // // trim(), 
+
+// // // // // // // let str2 = " Javascript "
+
+// // // // // // // console.log(str2.trim()[0]);
+
+// // // // // // // // trimStart()
+
+// // // // // // // console.log(str2.trimStart());
+
+
+// // // // // // // // trimEnd()
+
+// // // // // // // console.log(str2.trimEnd());
+
+// // // // // // // // includes(),
+
+// // // // // // // str2 = " Javascript"
+
+// // // // // // // console.log(str2.includes(" "));
+
+// // // // // // // // startsWith(), 
+
+// // // // // // // console.log(str2.startsWith("t"));
+
+
+// // // // // // // // endsWith()
+
+// // // // // // // console.log(str2.endsWith("t"));
+
+
+// // // // // // // // indexOf(),
+
+// // // // // // // str2 = "Javascript"
+
+// // // // // // // console.log(str2.indexOf("a",2));
+
+// // // // // // // console.log(str2.lastIndexOf("a",2));
+
+
+
+// // // // // // // // replace(), 
+
+// // // // // // // str2 = "JavaJavascript"
+
+// // // // // // // console.log(str2.replaceAll("Java","python"));
+
+
+// // // // // // // // repeat()
+
+// // // // // // // str2 = " Javascript "
+
+// // // // // // // console.log(str2.repeat(1));
+
+
+// // // // // // // // split(), 
+
+// // // // // // // str2 = "Javascript"
+
+// // // // // // // console.log(str2.split("a"));
+
+
+// // // // // // // console.clear();
+
+
+
+// // // // // // // // Date()
+
+
+
+// // // // // // // let data1 = new Date()
+
+// // // // // // // console.log(data1);
+
+
+// // // // // // // // get()
+
+// // // // // // // // year - getFullYear()
+
+// // // // // // // console.log(data1.getFullYear());
+
+// // // // // // // // month - getMonth()
+// // // // // // // let months = ["jan","feb","mar","apr","may","june","july","aug","sep","oct","nov","dec"]
+// // // // // // // console.log(months[data1.getMonth()]);
+
+// // // // // // // // day - getDay()
+
+// // // // // // // console.log(data1.getDay());
+
+// // // // // // // // date - getDate()
+
+// // // // // // // console.log(data1.getDate());
+
+// // // // // // // // hours
+
+// // // // // // // console.log(data1.getHours());
+
+// // // // // // // // minutes 
+
+// // // // // // // console.log(data1.getMinutes());
+
+// // // // // // // // seconds 
+
+// // // // // // // console.log(data1.getSeconds());
+
+
+
+
+
+// // // // // // // // set()
+
+
+// // // // // // // let data2  = new Date()
+
+// // // // // // // console.log(data2);
+
+
+// // // // // // // // year 
+
+// // // // // // // data2.setFullYear(2003)
+
+// // // // // // // console.log(data2);
+
+// // // // // // // data2.setMonth(0)
+
+// // // // // // // console.log(data2);
+
+// // // // // // // data2.setDate(30)
+
+// // // // // // // console.log(data2);
+
+// // // // // // // data2.setHours(12)
+
+// // // // // // // console.log(data2);
+
+// // // // // // // data2.setMinutes(12)
+
+// // // // // // // console.log(data2);
+
+// // // // // // // data2.setSeconds(12)
+
+// // // // // // // console.log(data2); 
+
+// // // // // // // console.clear();
+
+
+// // // // // // // let date =prompt("enter your DOB of date")
+// // // // // // // let month1 =prompt("enter your DOB of month use number")
+// // // // // // // let year1  =prompt("enter your DOB of year")
+
+
+// // // // // // // let birth = new Date()
+
+// // // // // // // birth.setDate(date)
+// // // // // // // birth.setMonth(month1-1)
+// // // // // // // birth.setFullYear(year1)
+
+// // // // // // // console.log(birth);
+
+// // // // // // // let day2 = birth.getDay()
+
+
+// // // // // // // let dayData = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+// // // // // // // alert(dayData[day2]);
+
+
+// // // // // // // Use object destructuring to extract:
+// // // // // // // name
+// // // // // // // department
+// // // // // // // salary
+// // // // // // // Use array destructuring for the employee's skills.
+
+
+// // // // // // // Async 
+
+
+// // // // // // // setTimeOut
+
+// // // // // // // setInterval
+
+// // // // // // // promise 
+
+
+// // // // // // // setTimeout(()=>{
+// // // // // // //     console.log("hello");
+    
+// // // // // // // },2000)
+
+// // // // // // // setTimeout(()=>{
+// // // // // // //     console.log("welcome");
+    
+// // // // // // // },1000)
+
+// // // // // // // setInterval(()=>{
+// // // // // // //     console.log("one");
+    
+// // // // // // // },3000)
+
+
+
+
+
+// // // // // // function one(){
+// // // // // //     console.log("one");
+    
+// // // // // // }
+
+
+// // // // // // function two(){
+// // // // // //     console.log("two");
+    
+// // // // // // }
+
+// // // // // // function three(){
+// // // // // //     console.log("three");
+    
+// // // // // // }
+
+// // // // // // one()
+// // // // // // setTimeout(two,0)
+// // // // // // three()
+
+
+
+
+
+
+// // // // // // Promise
+
+// // // // // // handle API
+
+
+// // // // // // fetch( api link )
+
+
+// // // // // // resolve state   - successful data - .then()
+
+// // // // // // reject state    - error data      - .catch()
+
+// // // // // // bending state   - coming data     - .finally()
+
+// // // // // let apiLink = "https://www.bing.com/search?q=a+ascii+value&gs_lcrp=EgRlZGdlKgcIAhBFGMIDMgcIABBFGLEBMgcIARBFGMIDMgcIAhBFGMIDMgcIAxBFGMIDMgcIBBBFGMIDMgcIBRBFGMIDMgcIBhBFGMIDMgcIBxBFGMIDMggICBDpBxjyBzIICAkQ6QcY8gfSAQw5NDAzMDEyMGowajeoAgiwAgE&FORM=ANNAB1&PC=U531"
+
+// // // // // fetch(apiLink).then((data)=>{
+// // // // //     // console.log(data);
+
+// // // // //     return data.json()
+
+// // // // //     // json --> js = .json()
+// // // // //     // js   --> json = .stringify()
+    
+// // // // // })
+
+// // // // // .then((jsData)=>{
+
+// // // // //     jsData.forEach((c,i,t)=>{
+// // // // //         console.log(c.title);
+        
+// // // // //     })
+    
+    
+
+// // // // // })
+// // // // // .catch((aa)=>{
+
+// // // // //     console.warn(aa);
+    
+
+// // // // // }).finally(()=>{
+// // // // //     console.log("api working...");
+    
+// // // // // })
+
+
+
+// // // // let hello10 = setInterval(()=>{
+    
+// // // //     console.log("hello");
+    
+
+// // // // },1000)
+
+
+// // // // setTimeout(()=>{
+
+// // // //     clearInterval(hello10)
+
+// // // // },10000)
+
+
+// // // // DOM - Document Object Model
+
+// // // // Selecting
+
+// // // // tagName - getElementByTagname
+
+
+
+// // // let tags = document.getElementsByTagName("h1")
+
+// // // console.log(tags);
+
+
+// // // // classname - getElementByClassname
+
+// // // let class1 = document.getElementsByClassName("first")
+
+// // // console.log(class1);
+
+// // // // idName - getElementById
+
+// // // let id1 = document.getElementById("second")
+
+// // // console.log(id1);
+
+
+// // // // querySelector()
+
+// // // // tag
+
+
+// // // let tag2 = document.querySelector("h2")
+// // // console.log(tag2);
+
+// // // // ClassName
+
+// // // let class2 = document.querySelector(".one")
+
+// // // console.log(class2);
+
+// // // // idName 
+
+// // // let id2 = document.querySelector("#two")
+
+// // // console.log(id2);
+
+
+
+// // // // querySelectorAll
+
+// // // let h3 = document.querySelectorAll(".h3")
+
+// // // console.log(h3);
+
+
+
+
+
+// // // // Traversing 
+
+// // // parentElement
+
+// // let car1 = document.querySelector(".car1")
+
+// // console.log(car1);
+// // let aero = (car1.parentElement); // parentElement
+
+// // console.log(aero.parentElement);
+
+
+
+// // // childElement
+
+// // const Aero1 = document.querySelector(".Aeroplane")
+
+// // console.log(Aero1);
+// // console.log(Aero1.firstElementChild);//firstElementChild
+
+// // console.log(Aero1.lastElementChild);//lastElementChild
+
+// // console.log(Aero1.children[2]);
+
+
+// // // siblingElement
+
+// // let car2 = document.querySelector(".car2")
+
+// // console.log(car2.previousElementSibling);// previousElementSibling
+// // let child3 = (car2.nextElementSibling); //nextElementSibling
+
+
+// // console.log(child3);
+// // console.log(child3.nextElementSibling);
+
+
+
+
+
+
+
+
+
+
+// // // // Manipulate
+
+
+
+// // value = input tag inside value u want manipulate 
+
+// let input1 = document.querySelector("input")
+
+// console.log(input1);
+
+// input1.value = "hello everyone"
+
+
+// // innerText, textContent , innerHTML = expact input we can use All the tag inside value we can manipulate.
+
+
+// let h1 = document.querySelector("h1")
+
+// console.log(h1);
+// // innerText 
+
+// h1.innerText = "good morning"
+
+// // textContent 
+
+// let h2 = document.querySelector("h2")
+
+// console.log(h2);
+
+// h2.textContent = "Good Afternoon"
+
+
+// // innerHTML 
+
+// let h3 = document.querySelector("h3")
+
+// console.log(h3);
+
+// h3.innerHTML = `<h1>hgfhg</h1> <h2>gdgwd</h2>`
+
+
+
+
+
+
+// // Event handler
+
+
+function one(){
+    let h1 = document.querySelector("h1")
+
+    h1.innerText = "good morning"
 }
 
-a(10)(20)(30)
 
 
-// uncurrying stracture
 
-function a1(a,b,c){
-    console.log(a+b+c);
+
+
+
+
+// // Event listner
+
+let btn = document.querySelector(".btn")
+
+btn.addEventListener("click",()=>{
+    let h2 = document.querySelector("h2")
+
+    h2.innerText = "good afternoon"
+
+    let h3 = document.querySelector("h3")
+
+    h3.innerText = "good evening"
+})
+
+
+
+// style  
+
+
+let btn2 = document.querySelector("#btn1")
+
+
+btn2.addEventListener("click",()=>{
     
-}
+   let h4 = document.querySelector("h4")
 
-a1(10,20,30)
+   h4.style.backgroundColor = "red"
+   h4.style.fontSize = "30px"
 
-
-
-// DataStracture
-
-// es6 edition
-
-// Spread operator
-
-// array , object
-// merge the value 
-// clone
-
-// Array Spread operator - [...]
-
-let arr11 = [1,2,3,4]
-let arr21 = [5,6,7,8]
-
-let newArr = [...arr11,...arr21,9,10]
-
-console.log(newArr);
-
-// object spread operator - {...}
-
-let obj1 = {name1 :"a", role1 : "trainee"}
-let obj2 = {name : "b", role : "developer"}
-
-let empDetials = {...obj1,...obj2,department : "pythonDeveloper"}
-// let newObj     = Object.assign({},obj1,obj2)
+})
 
 
-// console.log(newObj);
+// Attributes
 
-console.log(empDetials);
+let btn3 = document.querySelector(".btn3")
 
+btn3.addEventListener("click",()=>{
+    let h5 = document.querySelector("h5")
 
+    h5.setAttribute("id","active")
 
-
-
-
-
-// rest operator
-
-// function - (...) 
-
-// multiple argument single parameter inside
-
-function add(a,b,c,d,...e){
-    console.log(a,b,c,d);
-
-    console.log(e);
-    console.log(e[0]+e[1]+e[5]+e[2]);
-    let [x1,x2,x3,x4,x5,x6] = e
-
-    console.log(x1 + x2 + x6 + x3);
+    console.log(h5);
     
-
-    
-    
-    
-}
-
-add(1,2,3,4,5,6,7,8,9,10)
-
-
-// destracture
-
-
-// let aa = [1,2,3,4]
-
-
-
-
-// let z1 = aa[0] 
-// let z2 = aa[1] 
-// let z3 = aa[2] 
-// let z4 = aa[3] 
-
-// console.log(z1,z2,z3,z4);
-
-// // Array Destracture 
-
-// let [y1,y2,y3,y4] = aa
-
-// console.log(y1,y2,y3,y4);
-
-
-// nested Array 
-
-
-let nested = [1,2,[3,4,[5,6,[7]]]]
-
-let g1 = nested[0]
-let g2 = nested[1]
-let g3 = nested[2][0]
-let g4 = nested[2][1]
-let g5 = nested[2][2][0]
-let g6 = nested[2][2][1]
-let g7 = nested[2][2][2][0]
-
-
-console.log(g1,g2,g3,g4,g5,g6,g7);
-
-
-// Destracture Nested Array
-
-let [f1,f2,[f3,f4,[f5,f6,[f7]]]] = nested
-
-console.log(f1,f2,f3,f4,f5,f6,f7);
-
-
-
-// object 
-
-let exampleObj = {
-    name2 : "john",
-    role2 : "mern stack",
-    salary2: 100000
-}
-
-
-let s1 = exampleObj.name2
-let s2 = exampleObj.role2
-let s3 = exampleObj.salary2
-
-console.log(s1 , s2 , s3);
-
-
-// nested obj
-
-
-
-
-// destracture obj 
-
-
-let {name2,role2,salary2} = exampleObj
-
-console.log(name2,role2,salary2);
-
-
-
-
-let example1Obj={
-    name3:{city:"trichy",state1:"tamil nadu"}
-}
-
-console.log(example1Obj.name3.city);
-console.log(example1Obj.name3.state);
-
-
-let s4 = example1Obj.name3.city
-let state = example1Obj.name3.state1
-
-console.log(s4);
-console.log(state);
-
-// destrature obj 
-
-let {name3:{city,state1}} = example1Obj
-
-console.log(city);
-console.log(state1);
-
-console.clear();
-
-
-// Array Advance concept 
-
-
-let array = [1,2,3,5,6,7,"string",true,undefined,null,[1,2,3]]
-
-console.log(array)
-console.log(array[0]);
-console.log(array[array.length-1]);
-
-let sh = [1,2,3,[4,5,6],[7]]
-
-console.log(sh[4][0]);
-
-console.clear();
-
-
-// homogenious 
-// hetrogenious
-// flexible
-
-// array manipulation 
-
-// adding - you can add multiple value
-
-// remove - you can remove only one value 
-
-
-let example = [1,2,3]
-
-// pop()- array last value we can remove
-
-example.pop()
-
-// push()- array last value we can add
-
-example.push(3,4,5,6,7)
-
-// shift()- array first value we can remove
-
-example.shift()
-
-// unshift()- array first value we can add
-
-example.unshift(0,1)
-
-
-console.log(example);
-
-// splice(startingIndex , RemoveCount ,Adding Value)
-
-let example1 = [1,2,3,40,50,60,7,8,9,10]
-
-
-example1.splice(3,3,4,5,6)
-
-console.log(example1);
-
-
-
-
-
-// array merge method 
-
-// concat()
-
-let array1 = [1,2,3]
-let array2 = [4,5,6]
-
-let TotalArray = array1.concat(array2,7,8,9)
-
-console.log(TotalArray);
-
-
-// slice(), 
-
-let example2 = [1,2,3,50,60,70,8,9,10]
-
-let sliceval = example2.slice(3,6) // startingIndex , EndIndex + 1
-
-console.log(sliceval);
-
-
-
-// flat(), 
-
-let example3 = [1,2,[3,[4,[5,6,[7]]]]]
-
-let flatVal = example3.flat(Infinity)
-
-console.log(flatVal);
-
-
-// fill(),
-
-let example4 = [1,2,3,4] // 1,2,3,"four"
-
-example4.fill("four",3,4) // value, sI , eI + 1
-
-console.log(example4);
-
-
-// includes,
-
-let example5 = [1,56,3,8,9,20,45,0]
-
-let includesVal = example5.includes(0)
-
-console.log(includesVal);
-
-
-// indexOf(), 
-
-let example6 = [1,2,3,4,2,1,3]
-
-let indexOfVal = example6.indexOf(3,3)
-
-console.log(indexOfVal);
-
-
-
-
-
-
-// lastIndexOf()
-
-let example7 = [2,3,4,5,4,2,1,5,3,2]
-
-let lastIndexOfVal = example7.lastIndexOf(2,4)
-
-console.log(lastIndexOfVal);
-
-
-
-
-
-
-
-// sort(), 
-
-
-let example8 = [2,55678,7,4000,"a","A",3,1,0,8] // 55678 = 5.5678 , 5.5678 < 7
-
-let sortVal = example8.sort()
-
-console.log(sortVal);
-
-
-
-
-
-
-// reverse
-
-
-let example9 = [1,2,3,4]
-
-let reverseVal = example9.reverse()
-
-console.log(reverseVal);
-
-
-
-
-
-
-
-console.clear();
-
-
-
-
-
-
-// array higher order method()
-
-let example10 = [1,2,3,4]
-
-// forEach()
-
-let newForEach = example10.forEach((currentElement, indexNumber, TotalArray)=>{
-    return currentElement   
 })
 
-console.log(newForEach);
+
+// remove
 
 
-// map()
+let btn4 = document.querySelector(".btn4")
 
-let newMap = example10.map((c,i,t)=>{
+btn4.addEventListener("click",()=>{
+    let qq = document.querySelector(".qq")
 
-    return c
-
+    qq.remove()
 })
 
-console.log(newMap);
+
+// addHtml 
 
 
+let btn5 = document.querySelector(".btn5")
+
+btn5.addEventListener("click",()=>{
+    let ol = document.querySelector("ol")
+
+    // new html collection 
+
+    let li = document.createElement("li")
+
+    li.innerText = "hello"
 
 
-let example11 = [
-    {empName : "a",salary : 100000},
-    {empName : "b",salary : 200000},
-    {empName : "c",salary : 300000},
-    {empName : "d",salary : 100000},
-    {empName : "e",salary : 600000},
-    {empName : "f",salary : 300000},
-    {empName : "g",salary : 200000}
-]
-// filter()
+    // append
 
-
-let empSalary = example11.filter((c,i,t)=>{
-    return c.salary <= 200000
+    ol.append(li)
 })
-
-console.log(empSalary);
-
-
-// find()
-
-
-let findVal = example11.find((c,i,t)=>{
-     return c.salary <= 200000
-})
-
-console.log(findVal);
-
-
-// reduce()
-
-example11 = [
-    {empName : "a",salary : 100000},
-    {empName : "b",salary : 200000},
-    {empName : "c",salary : 300654},
-    {empName : "d",salary : 17854},
-    {empName : "e",salary : 600000},
-    {empName : "f",salary : 300000},
-    {empName : "g",salary : 200000}
-]
-
-
-let clcAllSalary = example11.reduce((acc,c,i,t)=>{
-    return acc + c.salary
-    //     0   + 1 = 1
-    //     1   + 2 = 3
-    //     3   + 3 = 6
-    //     6   + 1 = 7
-    //     7   + 6 = 13
-    //     13  + 3 = 16
-    //     16  + 2 = 18
-
-    //     18  + 0 = 18
-},0) // 3  // 6 // 7 // 13 // 16 // 18
-
-console.log(clcAllSalary);
-
-
-
-// some() - or 
-
-let example12 = [1,2,3,4]
-
-let someval = example12.some((c,i,t)=>{
-    return c%2==0
-
-    // 1 % 2 == 0 = false;
-    // 2 % 2 == 0 = true;
-    // 3 % 2 == 0 = false;
-    // 4 % 2 == 0 = true;
-
-    // false || true || false || true = true
-})
-
-console.log(someval);
-
-
-// every() - and
-
-let example13 = [2,4,6,8]
-
-let everyVal = example13.every((c,i,t)=>{
-    return i % 2 == 0 
-})
-
-console.log(everyVal);
-
-
-// sort()
-
-let example14 = [23,5678,0,1,23,456,76,89,90,100]
-
-console.log(example14.sort());
-
-
-let sortVal1 = example14.sort((a,b)=>{
-
-    return b - a
-
-})
-
-console.log(sortVal1);
-
-
-
-
-
-// convert   array - > string 
-
-// toString()
-
-let example15 = [1,2,3,4]
-
-console.log(example15.toString());
-
-
-// join()
-
-console.log(example15.join("  "));
-
-

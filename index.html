@@ -2,123 +2,170 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JavaScript Tasks - Day 1 to Day 6</title>
+<title>JavaScript Tasks </title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
+    body {
+        background: #f4f4f4;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    }
+
+    h1 {
+        color: #1565ff;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        text-align: center;
+        color: #555;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .day-section {
+        margin-top: 30px;
+    }
+
+    h2 {
+        color: #26374a;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #1565ff;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: 12px 15px;
+        margin: 8px 0;
+        background: #f8f8f8;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        accent-color: #1565ff;
+        flex-shrink: 0;
+    }
+
+    .task-name {
+        flex: 1;
+    }
+
+    .completed {
+        color: green;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .challenge {
+        background: #fff8e1;
+        border-left: 5px solid #ff9800;
+    }
+
+    .todo-container {
+        margin-top: 20px;
+        padding: 20px;
+        background: #f8f8f8;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .todo-container input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .todo-container button {
+        padding: 10px 18px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        background: #1565ff;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .todo-container button:hover {
+        background: #0d47c9;
+    }
+
+    .todo-container ol {
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+
+    .todo-container ol li {
+        display: list-item;
+        background: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .summary {
+        margin-top: 30px;
+        padding: 15px;
+        background: #f0f7ff;
+        border-left: 5px solid #1565ff;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #26374a;
+        line-height: 1.8;
+    }
+
+    @media (max-width: 600px) {
         body {
-            background: #f4f4f4;
-            padding: 40px;
+            padding: 20px;
         }
 
         .container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
-        }
-
-        h1 {
-            color: #1565ff;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .description {
-            text-align: center;
-            color: #555;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-
-        .day-section {
-            margin-top: 30px;
-        }
-
-        h2 {
-            color: #26374a;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #1565ff;
-        }
-
-        ul {
-            list-style: none;
+            padding: 20px;
         }
 
         li {
-            padding: 12px 15px;
-            margin: 8px 0;
-            background: #f8f8f8;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        input[type="checkbox"] {
-            width: 18px;
-            height: 18px;
-            accent-color: #1565ff;
-            flex-shrink: 0;
-        }
-
-        .task-name {
-            flex: 1;
+            align-items: flex-start;
         }
 
         .completed {
-            color: green;
-            font-weight: bold;
-            white-space: nowrap;
+            font-size: 13px;
         }
 
-        .challenge {
-            background: #fff8e1;
-            border-left: 5px solid #ff9800;
+        .todo-container input[type="text"] {
+            width: 65%;
         }
-
-        .summary {
-            margin-top: 30px;
-            padding: 15px;
-            background: #f0f7ff;
-            border-left: 5px solid #1565ff;
-            border-radius: 5px;
-            text-align: center;
-            font-weight: bold;
-            color: #26374a;
-            line-height: 1.8;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                padding: 20px;
-            }
-
-            .container {
-                padding: 20px;
-            }
-
-            li {
-                align-items: flex-start;
-            }
-
-            .completed {
-                font-size: 13px;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 
 <body>
@@ -134,16 +181,9 @@
         <strong>Console</strong>
         to view the output.
     </p>
-
     <p class="description">
-        GitHub Repository:
-        <a
-            href="https://github.com/Mohithram30/javascript-tasks"
-            target="_blank">
-            JavaScript Practical Tasks
-        </a>
+        <a href="https://github.com/Mohithram30/javascript-tasks" target="_blank">GitHub Repository</a>
     </p>
-
 
     <!-- ==================== DAY 1 ==================== -->
 
@@ -576,29 +616,10 @@
                 <span class="completed">✔ Completed</span>
             </li>
 
-        </ul>
-
-    </div>
-
-
-    <!-- ==================== DAY 4 FINAL CHALLENGE ==================== -->
-
-    <div class="day-section">
-
-        <h2>🏆 Day 4 Final Challenge</h2>
-
-        <ul>
-
             <li class="challenge">
                 <input type="checkbox" checked disabled>
-
-                <span class="task-name">
-                    Student Management Console Program
-                </span>
-
-                <span class="completed">
-                    ✔ Completed
-                </span>
+                <span class="task-name">Task 21 - Student Management Console Program</span>
+                <span class="completed">✔ Completed</span>
             </li>
 
         </ul>
@@ -728,7 +749,7 @@
                 <span class="completed">✔ Completed</span>
             </li>
 
-            <li>
+            <li class="challenge">
                 <input type="checkbox" checked disabled>
                 <span class="task-name">Task 20 - Employee Management Mini Program</span>
                 <span class="completed">✔ Completed</span>
@@ -749,121 +770,97 @@
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 1 - Display All Employees using forEach()
-                </span>
+                <span class="task-name">Task 1 - Display All Employees using forEach()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 2 - Find Employees with Salary Greater Than ₹40,000 using filter()
-                </span>
+                <span class="task-name">Task 2 - Find Employees with Salary Greater Than ₹40,000</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 3 - Find Employee by ID using find()
-                </span>
+                <span class="task-name">Task 3 - Find Employee by ID using find()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 4 - Calculate Total Salary using reduce()
-                </span>
+                <span class="task-name">Task 4 - Calculate Total Salary using reduce()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 5 - Check Salary Above ₹1,00,000 using some()
-                </span>
+                <span class="task-name">Task 5 - Check Salary using some()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 6 - Check Employee Experience using every()
-                </span>
+                <span class="task-name">Task 6 - Check Experience using every()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 7 - Sort Employees by Salary Highest to Lowest
-                </span>
+                <span class="task-name">Task 7 - Sort Employees by Salary</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 8 - Array Manipulation using push(), pop(), unshift() and shift()
-                </span>
+                <span class="task-name">Task 8 - Array Manipulation using push(), pop(), unshift(), shift()</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 9 - Object and Array Destructuring
-                </span>
+                <span class="task-name">Task 9 - Object and Array Destructuring</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 10 - Spread Operator for Employee Array
-                </span>
+                <span class="task-name">Task 10 - Spread Operator</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 11 - Rest Operator for Employee Skills
-                </span>
+                <span class="task-name">Task 11 - Rest Operator</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 12 - Employee Management Functions
-                </span>
+                <span class="task-name">Task 12 - Employee Management Functions</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 13 - Salary Category using Conditional Statements
-                </span>
+                <span class="task-name">Task 13 - Salary Category using Conditions</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 14 - Employee Joining Date and Date Methods
-                </span>
+                <span class="task-name">Task 14 - Joining Date and Date Methods</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
             <li>
                 <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 15 - User Input and Employee Search using prompt()
-                </span>
+                <span class="task-name">Task 15 - User Input Employee Search</span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li class="challenge">
+                <input type="checkbox" checked disabled>
+                <span class="task-name">Bonus - Menu-driven Employee Management System</span>
                 <span class="completed">✔ Completed</span>
             </li>
 
@@ -872,30 +869,128 @@
     </div>
 
 
-    <!-- ==================== DAY 6 BONUS ==================== -->
+    <!-- ==================== DAY 7 ==================== -->
 
     <div class="day-section">
 
-        <h2>⭐ Day 6 Bonus Challenge</h2>
+        <h2>Day 7 Tasks - Simple ToDo List</h2>
 
         <ul>
 
-            <li class="challenge">
-
+            <li>
                 <input type="checkbox" checked disabled>
-
                 <span class="task-name">
-                    Menu-driven Employee Management System
-                    - switch, functions, arrays, objects and higher-order methods
+                    Task 1 - Create Input Box and Add Button
                 </span>
+                <span class="completed">✔ Completed</span>
+            </li>
 
-                <span class="completed">
-                    ✔ Completed
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 2 - Add Task to Ordered List
                 </span>
+                <span class="completed">✔ Completed</span>
+            </li>
 
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 3 - Create Delete Button for Each Task
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 4 - Delete Task using remove()
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 5 - Validate Empty Input
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 6 - Display "Enter a task" for Empty Input
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 7 - Clear Input After Adding Task
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 8 - Use querySelector()
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 9 - Use addEventListener()
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 10 - Use createElement()
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 11 - Use innerText()
+                </span>
+                <span class="completed">✔ Completed</span>
+            </li>
+
+            <li>
+                <input type="checkbox" checked disabled>
+                <span class="task-name">
+                    Task 12 - Use append()
+                </span>
+                <span class="completed">✔ Completed</span>
             </li>
 
         </ul>
+
+
+        <!-- TODO APPLICATION -->
+
+        <div class="todo-container">
+
+            <h3>Simple ToDo List</h3>
+
+            <br>
+
+            <input type="text" id="taskInput">
+
+            <button id="addButton">Add</button>
+
+            <ol id="taskList"></ol>
+
+        </div>
 
     </div>
 
@@ -916,11 +1011,7 @@
 
         <br>
 
-        Day 4: 20 Tasks Completed ✔
-
-        <br>
-
-        Day 4 Final Challenge: 1 Task Completed ✔
+        Day 4: 21 Tasks Completed ✔
 
         <br>
 
@@ -928,20 +1019,15 @@
 
         <br>
 
-        Day 6: 15 Tasks Completed ✔
+        Day 6: 15 Tasks + Bonus Completed ✔
 
         <br>
 
-        Day 6 Bonus Challenge: 1 Task Completed ✔
+        Day 7: 12 Tasks Completed ✔
 
-        <br>
-        <br>
+        <br><br>
 
-        <strong>Total: 101 JavaScript Tasks Completed ✔</strong>
-
-        <br>
-
-        <strong>Challenges: 2 Completed ✔</strong>
+        Total: 112 JavaScript Tasks Completed ✔
 
     </div>
 
@@ -950,24 +1036,19 @@
 
 <!-- ==================== JAVASCRIPT FILES ==================== -->
 
-<!-- Day 1 JavaScript -->
 <script src="Day 1 Tasks.js"></script>
 
-<!-- Day 2 JavaScript -->
 <script src="Day 2 Task.js"></script>
 
-<!-- Day 3 JavaScript -->
 <script src="Day 3 Tasks.js"></script>
 
-<!-- Day 4 JavaScript -->
 <script src="Day 4 Tasks.js"></script>
 
-<!-- Day 5 JavaScript -->
 <script src="Day 5 Tasks.js"></script>
 
-<!-- Day 6 JavaScript -->
 <script src="Day 6 Task.js"></script>
 
+<script src="Day 7 Task.js"></script>
 
 </body>
 
