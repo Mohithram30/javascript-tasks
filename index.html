@@ -1,1055 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>JavaScript Tasks </title>
+    <link rel="stylesheet" href="/style.css">
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
-
-    body {
-        background: #f4f4f4;
-        padding: 40px;
-    }
-
-    .container {
-        max-width: 900px;
-        margin: auto;
-        background: #fff;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
-    }
-
-    h1 {
-        color: #1565ff;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .description {
-        text-align: center;
-        color: #555;
-        margin-bottom: 30px;
-        line-height: 1.6;
-    }
-
-    .day-section {
-        margin-top: 30px;
-    }
-
-    h2 {
-        color: #26374a;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid #1565ff;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    li {
-        padding: 12px 15px;
-        margin: 8px 0;
-        background: #f8f8f8;
-        border-radius: 6px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    input[type="checkbox"] {
-        width: 18px;
-        height: 18px;
-        accent-color: #1565ff;
-        flex-shrink: 0;
-    }
-
-    .task-name {
-        flex: 1;
-    }
-
-    .completed {
-        color: green;
-        font-weight: bold;
-        white-space: nowrap;
-    }
-
-    .challenge {
-        background: #fff8e1;
-        border-left: 5px solid #ff9800;
-    }
-
-    .todo-container {
-        margin-top: 20px;
-        padding: 20px;
-        background: #f8f8f8;
-        border-radius: 8px;
-        border: 1px solid #ddd;
-    }
-
-    .todo-container input[type="text"] {
-        width: 70%;
-        padding: 10px;
-        border: 1px solid #bbb;
-        border-radius: 5px;
-        font-size: 15px;
-    }
-
-    .todo-container button {
-        padding: 10px 18px;
-        margin-left: 5px;
-        border: none;
-        border-radius: 5px;
-        background: #1565ff;
-        color: white;
-        cursor: pointer;
-        font-size: 15px;
-    }
-
-    .todo-container button:hover {
-        background: #0d47c9;
-    }
-
-    .todo-container ol {
-        margin-top: 20px;
-        padding-left: 30px;
-    }
-
-    .todo-container ol li {
-        display: list-item;
-        background: white;
-        border: 1px solid #ddd;
-        padding: 10px;
-    }
-
-    .summary {
-        margin-top: 30px;
-        padding: 15px;
-        background: #f0f7ff;
-        border-left: 5px solid #1565ff;
-        border-radius: 5px;
-        text-align: center;
-        font-weight: bold;
-        color: #26374a;
-        line-height: 1.8;
-    }
-
-    @media (max-width: 600px) {
-        body {
-            padding: 20px;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        li {
-            align-items: flex-start;
-        }
-
-        .completed {
-            font-size: 13px;
-        }
-
-        .todo-container input[type="text"] {
-            width: 65%;
-        }
-    }
-</style>
+    <title>Mumo Stores</title>
 </head>
 
 <body>
 
-<div class="container">
+    <!-- HEADER -->
+    <header class="header">
 
-    <h1>JavaScript Practical Tasks</h1>
+        <div class="store-name">
+            🛒 Mumo Stores
+        </div>
 
-    <p class="description">
-        Open the browser
-        <strong>Developer Tools (Ctrl + Shift + I)</strong>
-        →
-        <strong>Console</strong>
-        to view the output.
-    </p>
-    <p class="description">
-        <a href="https://github.com/Mohithram30/javascript-tasks" target="_blank">GitHub Repository</a>
-    </p>
+        <p class="store-tagline">
+            Your One-Stop Online Store
+        </p>
 
-    <!-- ==================== DAY 1 ==================== -->
+    </header>
 
-    <div class="day-section">
 
-        <h2>Day 1 Tasks</h2>
+    <!-- CONTROLS -->
+    <div class="controls">
 
-        <ul>
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search product"
+        >
 
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Student Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
+        <button id="searchButton">
+            Search
+        </button>
 
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - Mobile Price</span>
-                <span class="completed">✔ Completed</span>
-            </li>
+        <button id="lowHigh">
+            Low → High
+        </button>
 
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Company Name</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - Console Practice</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Data Types</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - Shopping Cart Array</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Favorite Movies</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Employee Object</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - Product Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 10 - Arithmetic Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 11 - Increment Practice</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 12 - Predict the Output</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 13 - Predict the Output</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 14 - School Object</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 15 - Grocery List</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 16 - User Profile</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 17 - Variable Rules</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 18 - Marks Calculation</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 19 - Company Database</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 20 - Mini Profile</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
+        <button id="highLow">
+            High → Low
+        </button>
 
     </div>
 
 
-    <!-- ==================== DAY 2 ==================== -->
-
-    <div class="day-section">
-
-        <h2>Day 2 Tasks</h2>
-
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Variables – Student Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - User Input</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Data Types</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - Array – Shopping List</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Object – Employee Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - Arithmetic Operator – Bill Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Comparison Operators</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Logical Operators</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - Ternary Operator – Login</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 10 - Type Casting – Marks</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 11 - Voting Eligibility</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 12 - Student Grade</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 13 - Time Greeting</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 14 - Nested If – Job Eligibility</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 15 - Switch – Traffic Light</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-    </div>
-
+    <!-- CATEGORY BUTTONS -->
+    <div id="categoryButtons"></div>
 
-    <!-- ==================== DAY 3 ==================== -->
 
-    <div class="day-section">
-
-        <h2>Day 3 Tasks</h2>
+    <!-- API PRODUCTS -->
+    <div class="apicard"></div>
 
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Employee Eligibility</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - ATM Withdrawal</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Login System with 3 Attempts</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - Student Grade System</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Number Pattern</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - Shopping Cart</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Employee Object</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Bank Account Functions</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - Callback Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <!-- ==================== DAY 4 ==================== -->
-
-    <div class="day-section">
-
-        <h2>Day 4 Tasks</h2>
-
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Salary Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - Predict the Output</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Logical Operators</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - ATM Withdrawal</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Student Grade</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - Nested Login</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Number Pattern</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Multiplication Table</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - Reverse Countdown</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 10 - OTP System</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 11 - Array Search</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 12 - Object Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 13 - Calculator Function</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 14 - Employee Salary</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 15 - Function With Default Parameter</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 16 - Callback Task</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 17 - Generator Task</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 18 - Spread Operator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 19 - Array Destructuring</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 20 - Nested Object Destructuring</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li class="challenge">
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 21 - Student Management Console Program</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <!-- ==================== DAY 5 ==================== -->
-
-    <div class="day-section">
-
-        <h2>Day 5 Tasks</h2>
-
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Student Details</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - Simple Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Age Checker</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - Student Grade</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Login System</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - ATM Withdrawal</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Multiplication Table</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Reverse Number</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - OTP System</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 10 - Salary Calculator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 11 - Calculator Function</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 12 - Eligibility Function</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 13 - Shopping Cart</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 14 - Find Maximum</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 15 - Remove Duplicate Values</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 16 - Employee Salary Filter</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 17 - Increase Salary</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 18 - Total Salary</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 19 - Check Employee</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li class="challenge">
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 20 - Employee Management Mini Program</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <!-- ==================== DAY 6 ==================== -->
-
-    <div class="day-section">
-
-        <h2>Day 6 Tasks - Employee Management System</h2>
-
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 1 - Display All Employees using forEach()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 2 - Find Employees with Salary Greater Than ₹40,000</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 3 - Find Employee by ID using find()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 4 - Calculate Total Salary using reduce()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 5 - Check Salary using some()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 6 - Check Experience using every()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 7 - Sort Employees by Salary</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 8 - Array Manipulation using push(), pop(), unshift(), shift()</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 9 - Object and Array Destructuring</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 10 - Spread Operator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 11 - Rest Operator</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 12 - Employee Management Functions</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 13 - Salary Category using Conditions</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 14 - Joining Date and Date Methods</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Task 15 - User Input Employee Search</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li class="challenge">
-                <input type="checkbox" checked disabled>
-                <span class="task-name">Bonus - Menu-driven Employee Management System</span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <!-- ==================== DAY 7 ==================== -->
-
-    <div class="day-section">
-
-        <h2>Day 7 Tasks - Simple ToDo List</h2>
-
-        <ul>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 1 - Create Input Box and Add Button
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 2 - Add Task to Ordered List
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 3 - Create Delete Button for Each Task
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 4 - Delete Task using remove()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 5 - Validate Empty Input
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 6 - Display "Enter a task" for Empty Input
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 7 - Clear Input After Adding Task
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 8 - Use querySelector()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 9 - Use addEventListener()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 10 - Use createElement()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 11 - Use innerText()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-            <li>
-                <input type="checkbox" checked disabled>
-                <span class="task-name">
-                    Task 12 - Use append()
-                </span>
-                <span class="completed">✔ Completed</span>
-            </li>
-
-        </ul>
-
-
-        <!-- TODO APPLICATION -->
-
-        <div class="todo-container">
-
-            <h3>Simple ToDo List</h3>
-
-            <br>
-
-            <input type="text" id="taskInput">
-
-            <button id="addButton">Add</button>
-
-            <ol id="taskList"></ol>
+
+    <!-- STATIC PRODUCTS -->
+    <div class="products-container">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="assest/img/headphone.webp" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Electronics</p>
+        </div>
+
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="assest/img/shoe.webp" alt="Men's Shoes">
+            <h3>Men's Shoes</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Men's Fashion</p>
+        </div>
+
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="assest/img/Toster .jpeg" alt="Bread Toaster">
+            <h3>Bread Toaster</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Electronics</p>
+        </div>
+
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="assest/img/coolers.jpeg" alt="Men's Shades">
+            <h3>Men's Shades</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Men's Fashion</p>
+        </div>
+
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="assest/img/serum.jpeg" alt="Vitamin C Serum">
+            <h3>Vitamin C Serum</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Skincare</p>
+        </div>
+
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="assest/img/crop top .jpeg" alt="Crop Top">
+            <h3>Crop Top</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Women's Fashion</p>
+        </div>
+
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="assest/img/Shirt.avif" alt="Men's Shirt">
+            <h3>Men's Shirt</h3>
+            <p>Price: ₹1000</p>
+            <p>Category: Men's Fashion</p>
+        </div>
+
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <img
+                src="assest/img/Woman Pants Women's Formal Office Korean.jpg"
+                alt="Women's Pants"
+            >
+
+            <h3>Women's Pants</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+        </div>
+
+
+        <!-- Product 9 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/Pure Cotton Wide Leg Trousers.avif"
+                alt="Women's Cotton Pants"
+            >
+
+            <h3>Women's Cotton Pants Wide Leg</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 10 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/cargo pant.jpeg"
+                alt="Men's Cargo Pants"
+            >
+
+            <h3>Men's Cargo Pants</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Men's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 11 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/catton pant men .jpeg"
+                alt="Men's Cotton Pants"
+            >
+
+            <h3>Men's Cotton Pants</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Men's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 12 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/mens tshirts .jpeg"
+                alt="Men's Cotton T-Shirt"
+            >
+
+            <h3>Men's Cotton T-Shirt</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Men's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 13 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/wonwns tshirt.jpeg"
+                alt="Women's Cotton T-Shirt"
+            >
+
+            <h3>Women's Cotton T-Shirt</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 14 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/womens shoes .jpeg"
+                alt="Women's Shoes"
+            >
+
+            <h3>Women's Shoes</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 15 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/mens watch.avif"
+                alt="Men's Watch"
+            >
+
+            <h3>Men's Watch</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Men's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 16 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/womens watch.avif"
+                alt="Women's Watch"
+            >
+
+            <h3>Women's Watch</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 17 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/womens shades.avif"
+                alt="Women's Shades"
+            >
+
+            <h3>Women's Shades</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 18 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/mens backpack.webp"
+                alt="Men's Backpack"
+            >
+
+            <h3>Men's Backpack</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Men's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 19 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/womens backpack.webp"
+                alt="Women's Backpack"
+            >
+
+            <h3>Women's Backpack</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Women's Fashion</p>
+
+        </div>
+
+
+        <!-- Product 20 -->
+        <div class="product-card">
+
+            <img
+                src="assest/img/mac laptop.avif"
+                alt="Mac Laptop"
+            >
+
+            <h3>Mac Laptop</h3>
+
+            <p>Price: ₹1000</p>
+
+            <p>Category: Electronics</p>
 
         </div>
 
     </div>
 
 
-    <!-- ==================== SUMMARY ==================== -->
+    <!-- FOOTER -->
+    <footer class="footer">
 
-    <div class="summary">
+        <div class="footer-content">
 
-        Day 1: 20 Tasks Completed ✔
+            <h2>🛒 Mumo Stores</h2>
 
-        <br>
+            <p>
+                Your One-Stop Online Store
+            </p>
 
-        Day 2: 15 Tasks Completed ✔
+            <div class="footer-links">
 
-        <br>
+                <a href="#">Home</a>
 
-        Day 3: 9 Tasks Completed ✔
+                <a href="#">Products</a>
 
-        <br>
+                <a href="#">Categories</a>
 
-        Day 4: 21 Tasks Completed ✔
+                <a href="#">Contact</a>
 
-        <br>
+            </div>
 
-        Day 5: 20 Tasks Completed ✔
+            <p class="copyright">
+                © 2026 Mumo Stores. All Rights Reserved.
+            </p>
 
-        <br>
+        </div>
 
-        Day 6: 15 Tasks + Bonus Completed ✔
-
-        <br>
-
-        Day 7: 12 Tasks Completed ✔
-
-        <br><br>
-
-        Total: 112 JavaScript Tasks Completed ✔
-
-    </div>
-
-</div>
+    </footer>
 
 
-<!-- ==================== JAVASCRIPT FILES ==================== -->
-
-<script src="Day 1 Tasks.js"></script>
-
-<script src="Day 2 Task.js"></script>
-
-<script src="Day 3 Tasks.js"></script>
-
-<script src="Day 4 Tasks.js"></script>
-
-<script src="Day 5 Tasks.js"></script>
-
-<script src="Day 6 Task.js"></script>
-
-<script src="Day 7 Task.js"></script>
+    <script src="Day 8 Task.js"></script>
 
 </body>
-
 </html>

@@ -627,6 +627,7 @@ Requirements:
 4. Clicking **Delete** should remove that task.
 5. If the input is empty, show:
 
+
 ---
 
 # Total Tasks
