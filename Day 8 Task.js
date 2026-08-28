@@ -87,9 +87,7 @@ fetch(apiURL)
 
     .catch(function(_error) {
 
-        apicard.innerText =
-            // "Unable to load products.";
-
+        
         productCount.innerText =
             "Products unavailable.";
 
